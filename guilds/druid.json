@@ -1,0 +1,20 @@
+{"name": "Druid",
+  "desc": "A vegan druid",
+  "bab_modifier": 0.5,
+  "fort_save": "Strong",
+  "ref_save": "Weak",
+  "will_save": "Strong",
+  "equipment_type" : 2,
+  "hit_dice" : 8,
+  "mana_modifier": 8,
+  "main_stat": "wisdom",
+  "skill_points": 4,
+  "class_skill_cost":
+  {"Perception": 1,
+   "Swim": 1,
+   "Craft Potion": 1,
+   "Heal": 1},
+  "allowed_weapon_types": ["shield","club", "dagger", "quarterstaff", "scimitar", "spear", "shortspear"]
+
+
+                   }

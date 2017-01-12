@@ -1,0 +1,24 @@
+{"name": "Elf",
+                   "desc": "A slender and lithe elf, possibly hailing from the Silver woods",
+                   "attributes": {
+                       "STR": 0,
+                       "CON": -2,
+                       "DEX": 2,
+                       "WIS": 0,
+                       "CHA": 0,
+                       "INT": 0
+                   },
+"body_type":  {
+            "Main Hand": "Nothing",
+            "Off Hand": "Nothing",
+            "Head": "Nothing",
+            "Neck": "Nothing",
+            "Body" : "Nothing",
+            "Back" : "Nothing",
+            "Waist": "Nothing",
+            "Hands" : "Nothing",
+            "Feet": "Nothing",
+            "Ring Slot 1": "Nothing",
+            "Ring Slot 2": "Nothing"
+        }
+                   }

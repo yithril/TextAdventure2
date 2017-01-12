@@ -1,0 +1,24 @@
+{"name": "Half Orc",
+                   "desc": "A hefty, brutish looking half-orc.",
+                   "attributes": {
+                       "STR": 2,
+                       "CON": 2,
+                       "DEX": 0,
+                       "WIS": 0,
+                       "CHA": -2,
+                       "INT": -2
+                   },
+"body_type":  {
+            "Main Hand": "Nothing",
+            "Off Hand": "Nothing",
+            "Head": "Nothing",
+            "Neck": "Nothing",
+            "Body" : "Nothing",
+            "Back" : "Nothing",
+            "Waist": "Nothing",
+            "Hands" : "Nothing",
+            "Feet": "Nothing",
+            "Ring Slot 1": "Nothing",
+            "Ring Slot 2": "Nothing"
+        }
+                   }

@@ -1,0 +1,20 @@
+{"name": "Ranger",
+  "desc": "Double fisting weapons",
+  "bab_modifier": 1,
+  "fort_save": "Strong",
+  "ref_save": "Strong",
+  "will_save": "Weak",
+  "equipment_type" : 2,
+  "hit_dice" : 8,
+  "mana_modifier": 4,
+  "main_stat": "wisdom",
+  "skill_points": 6,
+  "class_skill_cost":
+  {"Perception":1,
+    "Heal" : 1,
+    "Jump":1,
+  "Move Silently":1,
+  "Swim": 1},
+  "allowed_weapon_types" : ["simple weapon", "martial weapon"]
+
+                   }

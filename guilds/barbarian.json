@@ -1,0 +1,22 @@
+{"name": "Barbarian",
+  "desc": "Big tough Barbarian!",
+  "bab_modifier": 1,
+  "fort_save": "Strong",
+  "ref_save": "Weak",
+  "will_save": "Weak",
+  "equipment_type" : 3,
+  "hit_dice" : 12,
+  "mana_modifier": 0,
+  "main_stat": "strength",
+  "skill_points": 4,
+  "class_skill_cost":
+  {"Swim": 1,
+   "Climb": 1,
+    "Craft Weapons": 1,
+    "Craft Armor": 1
+    },
+  "allowed_weapon_types" : ["all"]
+
+
+
+                   }

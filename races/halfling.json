@@ -1,0 +1,25 @@
+{"name": "Halfling",
+                   "desc": "A barefoot halfling weary a raggedy coat.",
+                   "attributes": {
+                       "STR": -2,
+                       "CON": 0,
+                       "DEX": 2,
+                       "WIS": 0,
+                       "CHA": 0,
+                       "INT": 0
+                   },
+  "body_type":  {
+            "Main Hand": "Nothing",
+            "Off Hand": "Nothing",
+            "Head": "Nothing",
+            "Neck": "Nothing",
+            "Body" : "Nothing",
+            "Back" : "Nothing",
+            "Waist": "Nothing",
+            "Hands" : "Nothing",
+            "Feet": "Nothing",
+            "Ring Slot 1": "Nothing",
+            "Ring Slot 2": "Nothing"
+        }
+
+                   }

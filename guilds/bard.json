@@ -1,0 +1,24 @@
+{
+  "name": "Bard",
+  "desc": "A spoony bard",
+  "bab_modifier": 0.5,
+  "fort_save": "Weak",
+  "ref_save": "Strong",
+  "will_save": "Strong",
+  "equipment_type": 1,
+  "hit_dice": 6,
+  "mana_modifier": 6,
+  "main_stat": "charisma",
+  "skill_points": 6,
+  "class_skill_cost": {
+    "Climb": 1,
+    "Diplomacy": 1,
+    "Move Silently": 1,
+    "Craft Potion": 1,
+    "Deciper Script": 1,
+    "Craft Spell": 1,
+    "Swim": 1,
+    "Use Magic Device":1
+  },
+    "allowed_weapon_types": ["simple weapon", "longsword", "rapier", "sap", "whip", "shortbow"]
+}

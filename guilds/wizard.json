@@ -1,0 +1,18 @@
+{"name": "Wizard",
+  "desc": "The wizard's strength is his spells. Everything else is secondary.  Wizards can incinerate their foes with searing balls of heat, protect their friends with impenetrable shields of force, or float along the breeze along gossamer webs of magic.  Wizards are physically feeble and may only wear light armor and wield simple weapons.  Their spells more than make up for it.",
+  "bab_modifier": 0.5,
+  "fort_save": "Weak",
+  "ref_save": "Weak",
+  "will_save": "Strong",
+  "equipment_type" : 1,
+  "hit_dice" : 4,
+  "mana_modifier": 12,
+  "skill_points": 2,
+  "main_stat": "intelligence",
+  "class_skill_cost":
+  {"Craft Potion":1, "Deciper Script" : 1, "Craft Spell":1, "Use Magic Device": 1},
+  "allowed_weapon_types" : ["club", "dagger", "heavy crossbow", "light crossbow", "quarterstaff"]
+
+
+
+                   }

@@ -1,0 +1,9 @@
+{
+  "spell_name": "Magic Missile",
+  "desc": "Magic missile is a pretty l33t spell for n00b mages",
+  "damage_type": "Arcane",
+  "in_combat_only": "True",
+  ""
+
+
+}

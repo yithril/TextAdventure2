@@ -1,0 +1,20 @@
+{"name": "Rogue",
+  "desc": "Sneaky sneaky",
+  "bab_modifier": 0.5,
+  "fort_save": "Weak",
+  "ref_save": "Strong",
+  "will_save": "Weak",
+  "equipment_type" : 1,
+  "hit_dice" : 6,
+  "mana_modifier": 0,
+  "main_stat": "dexterity",
+  "skill_points": 6,
+  "class_skill_cost":
+  {"Move Silently":1,
+    "Deciper Script" : 1,
+    "Diplomacy":1,
+    "Open Lock": 1,
+    "Climb": 1,
+    "Use Magic Device":1},
+  "allowed_weapon_types" : ["simple weapon", "rapier", "shortbow", "sap", "hand crossbow"]
+                   }

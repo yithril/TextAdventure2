@@ -1,0 +1,20 @@
+{"name": "Fighter",
+  "desc": "A burly fighter",
+  "bab_modifier": 1,
+  "fort_save": "Strong",
+  "ref_save": "Weak",
+  "will_save": "Weak",
+  "equipment_type" : 3,
+  "hit_dice" : 10,
+  "mana_modifier": 0,
+  "main_stat": "strength",
+  "skill_points": 4,
+  "class_skill_cost":
+  {"Climb":1,
+    "Craft Weapons" : 1,
+    "Craft Armor":1,
+    "Jump": 1,
+    "Swim": 1},
+  "allowed_weapon_types": ["all"]
+
+                   }

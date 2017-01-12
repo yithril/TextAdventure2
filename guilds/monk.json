@@ -1,0 +1,22 @@
+{"name": "Monk",
+  "desc": "Jet Li",
+  "bab_modifier": 0.5,
+  "fort_save": "Strong",
+  "ref_save": "Strong",
+  "will_save": "Strong",
+  "equipment_type" : 0,
+  "hit_dice" : 8,
+  "mana_modifier": 4,
+  "main_stat": "wisdom",
+  "skill_points": 4,
+  "class_skill_cost":
+  {"Diplomacy":1,
+    "Craft Potion" : 1,
+    "Perception":1,
+    "Jump":1,
+    "Use Magic Device": 1
+  },
+  "allowed_weapon_types" : ["club", "crossbow", "quarterstaff", "dagger", "handaxe", "javelin", "kama",
+   "nunchaku", "sai", "shuriken"]
+
+                   }

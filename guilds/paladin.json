@@ -1,0 +1,18 @@
+{"name": "Paladin",
+  "desc": "Goody two shoes",
+  "bab_modifier": 1,
+  "fort_save": "Strong",
+  "ref_save": "Weak",
+  "will_save": "Weak",
+  "equipment_type" : 3,
+  "hit_dice" : 10,
+  "mana_modifier": 4,
+  "main_stat": "charisma",
+  "skill_points": 2,
+  "class_skill_cost":
+  {"Diplomacy":1,
+    "Craft Weapons" : 1,
+    "Craft Armor":1,
+  "Heal": 1},
+  "allowed_weapon_types" : ["all"]
+}

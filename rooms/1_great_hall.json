@@ -1,0 +1,8 @@
+   { "name" : "Great Hall",
+  "description" : "You're standing among greatness",
+  "neighbors" : {"w":2},
+     "npc_inv": [],
+     "items_inv" : {},
+     "indoors" : "True",
+     "terrain" : "room"
+  }

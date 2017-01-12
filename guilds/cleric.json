@@ -1,0 +1,19 @@
+{"name": "Cleric",
+  "desc": "A holy cleric",
+  "bab_modifier": 0.5,
+  "fort_save": "Strong",
+  "ref_save": "Weak",
+  "will_save": "Strong",
+  "equipment_type" : 3,
+  "hit_dice" : 8,
+  "mana_modifier": 12,
+  "main_stat": "wisdom",
+  "skill_points": 2,
+  "class_skill_cost":
+  {"Craft Potion":1,
+    "Heal" : 1,
+    "Craft Spell":1,
+    "Diplomacy": 1,
+  "Use Magic Device": 1},
+  "allowed_weapon_types": ["simple weapon", "shield"]
+}
