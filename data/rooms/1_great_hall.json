@@ -1,4 +1,6 @@
-   { "name" : "Great Hall",
+   {
+     "id" : 1,
+     "name" : "Great Hall",
   "description" : "You're standing among greatness",
   "neighbors" : {"w":2},
      "npc_inv": [],

@@ -17,7 +17,7 @@ class Chained_Factory():
 
 def Generic_Factory(clazz):
     class Anon:
-        def create(self,d):
+        def create(self, d):
             return clazz(**d)
     return Anon
 

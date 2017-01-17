@@ -4,7 +4,8 @@ import os
 import factory
 from Character import Character
 from Weapon import Weapon
-from factory import Weapon_Factory, Character_Factory
+from factory import Weapon_Factory, Character_Factory, Room_Factory
+from room import Room
 
 
 def test_character_loads():
@@ -60,3 +61,19 @@ def test_weapon_loads():
                     damage_stat = "strength",
                     damage_type = "slashing")
     assert weapon == parsed_weapon
+
+def test_room_loads():
+    json_room = {
+        "id": 1,
+     "name" : "Great Hall",
+  "description" : "You're standing among greatness",
+  "neighbors" : {"w":2},
+     "npc_inv": [],
+     "items_inv" : {},
+     "indoors" : "True",
+     "terrain" : "room"
+  }
+    roomfactory = Room_Factory()
+    parsed_room = roomfactory.create(json_room)
+    room = Room(id = 1, name = "Great Hall", description = "You're standing among greatness", neighbors = {"w":2}, npc_inv = [], items_inv = {}, indoors = "True", terrain = "room")
+    assert parsed_room == room

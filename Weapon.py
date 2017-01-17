@@ -21,7 +21,7 @@ class Weapon(Items):
                  damage_hit_dice_coefficient,
                  damage_stat,
                  damage_type):
-        Items.__init__(self, name, desc, long_desc, weight, value, can_pick_up, is_magical, is_cursed, keywords,type)
+        super().__init__(name, desc, long_desc, weight, value, can_pick_up, is_magical, is_cursed, keywords,type)
         self.handed = handed
         self.offhand = offhand
         self.weapon_type = weapon_type

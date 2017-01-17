@@ -1,3 +1,6 @@
+import cmd
+import textwrap
+
 from Action_repository import ActionRepo
 from Character import Character
 from Game_State import Game_State
@@ -10,27 +13,31 @@ from factory import Room_Factory
 from file_loader import File_Loader
 from repository import Repository
 
-player = Character("George", [])
 
-class TerminalApp:
-
-    def __init__(self, action_repository):
+class Game(cmd.Cmd):
+    def __init__(self):
+        cmd.Cmd.__init__(self)
         self.game_state = Game_State(1, player)
-        self.action_repository = action_repository
+        self.prompt = '>>'
 
-    def process(self,line):
-        commands = line.split(' ')
-        if not commands: return print("Please input a command.")
-        action_name = commands[0]
-        action = self.action_repository.get_by_name(action_name)
-        if action is None:
-            print("That's not something you can do.")
+    def do_look(self,dir):
+        action_repo.get_by_name("move").do(self.game_state, dir)
+
+    def do_move(self, dir):
+        if not dir:
+            print("You must input a direction to move in,")
         else:
-            action.do()
+            action_repo.get_by_name("move").do(self.game_state,dir)
+
+    def do_take(self, itemname):
+        action_repo.get_by_name("take").do(self.game_state, itemname)
+
+    def do_quit(self):
+        print("Thanks for playing!")
+        return True
 
 
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     room_path = "data/rooms/"
     room_loader = File_Loader(room_path)
     room_repo = Caching_Repository(Repository(room_loader, Room_Factory))
@@ -39,6 +46,6 @@ if __name__ == '__main__':
     action_repo.add("look", LookAction(room_repo))
     action_repo.add("take", TakeItemAction(room_repo))
     action_repo.add("drop", DropItemAction(room_repo))
-    app = TerminalApp(action_repo)
-    line = input("Do>")
-    app.process(line)
+    player = Character("George", [])
+    g = Game()
+    g.cmdloop()
