@@ -3,7 +3,24 @@
   "name": "Loras the Barkeep",
   "inventory": [],
   "description": "Loras' grin is as slimy as the bar he keeps. He has short, sandy blonde hair, and has a rather slight frame that might not inspire confidence in combat. He wears a tan vest and white shirt.  He moves to and fro, cleaning glasses.",
-  "keywords": ["loras", "Loras", "barkeep", "Barkeep"]
+  "keywords": ["loras", "Loras", "barkeep", "Barkeep"],
+  "race": "Human",
+  "sex": "Male",
+  "guild": "Fighter",
+  "ac": 15,
+  "hp": 30,
+  "mp": 20,
+  "level": 5,
+  "xp": 0,
+  "gold": 0,
+  "encumbrance": 100,
+  "strength": 11,
+  "dexterity": 12,
+  "constitution": 10,
+  "intelligence": 10,
+  "charisma": 12,
+  "wisdom": 10,
+  "feats" : []
 
 
 }

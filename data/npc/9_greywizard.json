@@ -3,6 +3,22 @@
   "name": "Martin the Gray Wizard",
   "inventory": [],
   "description": "Martin is a wizened old wizard with long strands of silky gray hair that flows down to his waist.  He is draped in dark gray and light gray robes and a pointed straw hat.",
-  "keywords": ["Martin", "martin", "wizard", "gray wizard", "Gray Wizard" ]
-
+  "keywords": ["Martin", "martin", "wizard", "gray wizard", "Gray Wizard" ],
+  "race": "Human",
+  "sex": "Male",
+  "guild": "Wizard",
+  "ac": 15,
+  "hp": 30,
+  "mp": 20,
+  "level": 5,
+  "xp": 0,
+  "gold": 0,
+  "encumbrance": 100,
+  "strength": 12,
+  "dexterity": 12,
+  "constitution": 10,
+  "intelligence": 15,
+  "charisma": 14,
+  "wisdom": 13,
+  "feats" : []
 }

@@ -3,6 +3,7 @@ import pytest
 from Game_State import Game_State
 from actions.look import LookAction
 from actions.move import MoveAction
+from items import Items
 from room import Room
 
 
@@ -12,6 +13,15 @@ class MockRepository:
 
     def get_by_id(self, id):
         return self._repo[id]
+
+@pytest.fixture()
+def item_repository():
+    return MockRepository(Items(id = 1, name = "rock", desc = "a rock", long_desc = "a rock", weight = 1, value = 1, can_pick_up = "True", is_magical = "True", is_cursed = "False", keywords = ["pebble"], type = "Item"),
+                          Items(id=2, name="pebble", desc="a rock", long_desc="a feather", weight=1, value=1,
+                                can_pick_up="True", is_magical="True", is_cursed="False", keywords=["plume"], type="Item"),)
+@pytest.fixture()
+def npc_repository():
+    pass
 
 @pytest.fixture()
 def room_repository():
@@ -30,8 +40,8 @@ def moveaction(room_repository):
     return MoveAction(room_repository)
 
 @pytest.fixture()
-def lookaction(room_repository):
-    return LookAction(room_repository)
+def lookaction(room_repository, item_repository, npc_repository):
+    return LookAction(room_repository, item_repository, npc_repository)
 
 
 @pytest.mark.parametrize("directions,end_room_id",

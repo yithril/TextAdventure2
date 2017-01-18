@@ -3,7 +3,24 @@
   "name": "Josephus the Black Wizard",
   "inventory": [],
   "description": "Josephus is a rather handsome, rugged wizard, far from the usual perception of a pale bookworm.  His cleft jaw and stark features are striking.  His hair is jet black, slick, and cropped back.  His robes are as dark as night, and occasionally, you see a twinkle of what could be starlight.",
-  "keywords": ["Josephus", "josephus", "black wizard", "Black Wizard", "wizard"]
+  "keywords": ["Josephus", "josephus", "black wizard", "Black Wizard", "wizard"],
+  "race": "Human",
+  "sex": "Male",
+  "guild": "Wizard",
+  "ac": 15,
+  "hp": 32,
+  "mp": 25,
+  "level": 5,
+  "xp": 0,
+  "gold": 0,
+  "encumbrance": 100,
+  "strength": 12,
+  "dexterity": 12,
+  "constitution": 10,
+  "intelligence": 16,
+  "charisma": 14,
+  "wisdom": 13,
+  "feats" : []
 
 
 }

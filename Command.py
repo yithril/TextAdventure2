@@ -4,6 +4,7 @@ import textwrap
 from Action_repository import ActionRepo
 from Character import Character
 from Game_State import Game_State
+from actions.inventory import Inventory
 from actions.move import MoveAction
 from actions.look import LookAction
 from actions.take import TakeItemAction
@@ -43,9 +44,12 @@ class Game(cmd.Cmd):
     def do_drop(self, itemname):
         print(action_repo.get_by_name("drop").do(self.game_state, itemname))
 
-    def do_quit(self):
+    def do_inventory(self, args):
+        print(action_repo.get_by_name("inventory").do(self.game_state))
+
+    def do_quit(self, args):
         print("Thanks for playing!")
-        return True
+        return -1
 
 if __name__ == "__main__":
     room_path = "data/rooms/"
@@ -62,6 +66,7 @@ if __name__ == "__main__":
     action_repo.add("look", LookAction(room_repo, npc_repo, item_repo))
     action_repo.add("take", TakeItemAction(room_repo, item_repo))
     action_repo.add("drop", DropItemAction(room_repo, item_repo))
-    player = Character("George", [], type = "Character", description = "A player", keywords = [])
+    action_repo.add("inventory", Inventory(item_repo))
+    player = Character("Character", "George", [], description = "A player", keywords = [], race = "Human", sex = "Male", guild = "Paladin", ac = 10, mp = 10, hp = 10, strength = 10, dexterity=10, constitution=10, intelligence=10, wisdom=10, charisma=10, level=1, gold=100, xp=0, encumbrance=20, feats=[])
     g = Game()
     g.cmdloop()

@@ -3,7 +3,24 @@
   "name": "Gillard the Requisitioner",
   "inventory": [],
   "description": "Gillard is a rather homely looking halfling.  He has a nervous air about him, constantly fiddling through file papers or rushing to and fro.  His hair is wild and unkempt, spiking out in odd directions.  He dons a ragged suit coat, a pair of shorts, and a tie that is too short to reach his waist.",
-  "keywords": ["Gillard", "gillard", "requisitioner", "Requisitioner"]
+  "keywords": ["Gillard", "gillard", "requisitioner", "Requisitioner"],
+  "race": "Hafling",
+  "sex": "Male",
+  "guild": "Fighter",
+  "ac": 15,
+  "hp": 30,
+  "mp": 20,
+  "level": 3,
+  "xp": 0,
+  "gold": 0,
+  "encumbrance": 100,
+  "strength": 12,
+  "dexterity": 12,
+  "constitution": 10,
+  "intelligence": 12,
+  "charisma": 12,
+  "wisdom": 13,
+  "feats" : []
 
 
 }

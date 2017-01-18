@@ -3,7 +3,24 @@
   "name": "One-eyed Jasper the Combat Master",
   "inventory": [],
   "description": "Jasper's muscled body is riddled with scars and scabs from recent wounds.  His head is shaved spotless and his bushy, fire red eyebrows bob up and down as he lets out a guffaw.  He dons an eye patch over his left eye, no doubt a trophy from his much talked about days in the arena.  His grin is dotted with holes.",
-  "keywords": ["jasper", "Jasper", "combat master"]
+  "keywords": ["jasper", "Jasper", "combat master"],
+  "race": "Human",
+  "sex": "Male",
+  "guild": "Barbarian",
+  "ac": 16,
+  "hp": 45,
+  "mp": 0,
+  "level": 5,
+  "xp": 0,
+  "gold": 0,
+  "encumbrance": 100,
+  "strength": 16,
+  "dexterity": 15,
+  "constitution": 15,
+  "intelligence": 9,
+  "charisma": 10,
+  "wisdom": 10,
+  "feats" : []
 
 
 }
