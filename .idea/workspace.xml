@@ -2,38 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f9fa4d5-70f2-4454-ba17-38975e74d0e3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/items/12_shortsword.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/items/14_handaxe.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/npc/11_blackwizard.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/npc/13_bluewizard.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/npc/9_greywizard.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/rooms/2_hallway.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/rooms/3_training_dummy.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/rooms/4_requisitioner.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/rooms/5_hallway.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/rooms/6_exit_training_area.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/rooms/7_training_dummy_2.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/rooms/8_bar.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/room_loader.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/npc/1_greywizard" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/rooms/1_great_hall.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/rooms/2_dining_room.json" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/items/1_longsword.json" afterPath="$PROJECT_DIR$/data/items/10_longsword.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Character.py" afterPath="$PROJECT_DIR$/Character.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Command.py" afterPath="$PROJECT_DIR$/Command.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actions/look.py" afterPath="$PROJECT_DIR$/actions/look.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actions/take.py" afterPath="$PROJECT_DIR$/actions/take.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/factory.py" afterPath="$PROJECT_DIR$/factory.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/items.py" afterPath="$PROJECT_DIR$/items.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repository.py" afterPath="$PROJECT_DIR$/repository.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/room.py" afterPath="$PROJECT_DIR$/room.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_drop_item.py" afterPath="$PROJECT_DIR$/tests/test_drop_item.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_factory.py" afterPath="$PROJECT_DIR$/tests/test_factory.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_look_action.py" afterPath="$PROJECT_DIR$/tests/test_look_action.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_repository.py" afterPath="$PROJECT_DIR$/tests/test_repository.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_room_actions.py" afterPath="$PROJECT_DIR$/tests/test_room_actions.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_rooms.py" afterPath="$PROJECT_DIR$/tests/test_rooms.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_takeitemaction.py" afterPath="$PROJECT_DIR$/tests/test_takeitemaction.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,8 +52,8 @@
       <file leaf-file-name="room.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/room.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="63" column="16" lean-forward="false" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+            <state relative-caret-position="134">
+              <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -116,8 +84,8 @@
       <file leaf-file-name="test_takeitemaction.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/test_takeitemaction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="61" column="36" lean-forward="true" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+            <state relative-caret-position="285">
+              <caret line="72" column="27" lean-forward="false" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -136,8 +104,8 @@
       <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state relative-caret-position="117">
+              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -215,8 +183,8 @@
         <option value="$PROJECT_DIR$/Command.py" />
         <option value="$PROJECT_DIR$/actions/take.py" />
         <option value="$PROJECT_DIR$/items.py" />
-        <option value="$PROJECT_DIR$/tests/test_takeitemaction.py" />
         <option value="$PROJECT_DIR$/Character.py" />
+        <option value="$PROJECT_DIR$/tests/test_takeitemaction.py" />
       </list>
     </option>
   </component>
@@ -371,7 +339,7 @@
       <recent name="C:\Coding\Python\TextAdventureRedux\tests\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in test_take_item">
+  <component name="RunManager" selected="Python tests.py.test in test_take_item_from_room_with_many_things">
     <configuration default="false" name="terminalapp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -385,23 +353,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TextAdventureRedux" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/terminalapp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="items" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TextAdventureRedux" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/items.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -466,6 +417,30 @@
       <option name="USE_PATTERN" value="false" />
       <option name="testToRun" value="$PROJECT_DIR$/tests/test_takeitemaction.py" />
       <option name="keywords" value="test_take_item" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test in test_take_item_from_room_with_many_things" type="tests" factoryName="py.test" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TextAdventureRedux" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="$PROJECT_DIR$/tests/test_takeitemaction.py" />
+      <option name="keywords" value="test_take_item_from_room_with_many_things" />
       <option name="params" value="" />
       <option name="USE_PARAM" value="false" />
       <option name="USE_KEYWORD" value="true" />
@@ -632,18 +607,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python tests.All" />
       <item index="1" class="java.lang.String" itemvalue="Python.terminalapp" />
-      <item index="2" class="java.lang.String" itemvalue="Python.items" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Command" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_takeitemaction.py" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.py.test in test_take_item" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Command" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_takeitemaction.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_take_item" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.py.test in test_take_item_from_room_with_many_things" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_take_item" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_takeitemaction.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Command" />
-        <item index="3" class="java.lang.String" itemvalue="Python.terminalapp" />
-        <item index="4" class="java.lang.String" itemvalue="Python.items" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_take_item_from_room_with_many_things" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_take_item" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_takeitemaction.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Command" />
+        <item index="4" class="java.lang.String" itemvalue="Python.terminalapp" />
       </list>
     </recent_temporary>
   </component>
@@ -661,39 +636,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_test_take_item - 2017.01.17 at 20h 21m 07s.xml">
+    <history-entry file="py_test_in_test_take_item - 2017.01.17 at 20h 49m 03s.xml">
       <configuration name="py.test in test_take_item" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_take_item - 2017.01.17 at 20h 21m 11s.xml">
+    <history-entry file="py_test_in_test_take_item - 2017.01.17 at 20h 51m 41s.xml">
       <configuration name="py.test in test_take_item" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_take_item - 2017.01.17 at 20h 22m 25s.xml">
+    <history-entry file="py_test_in_test_take_item - 2017.01.17 at 20h 51m 47s.xml">
       <configuration name="py.test in test_take_item" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_take_item - 2017.01.17 at 20h 22m 51s.xml">
+    <history-entry file="py_test_in_test_take_item - 2017.01.17 at 20h 51m 54s.xml">
       <configuration name="py.test in test_take_item" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_take_item - 2017.01.17 at 20h 32m 43s.xml">
+    <history-entry file="py_test_in_test_take_item - 2017.01.17 at 20h 52m 35s.xml">
       <configuration name="py.test in test_take_item" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_take_item - 2017.01.17 at 20h 33m 12s.xml">
-      <configuration name="py.test in test_take_item" configurationId="tests" />
+    <history-entry file="py_test_in_test_take_item_from_room_with_many_things - 2017.01.17 at 20h 54m 31s.xml">
+      <configuration name="py.test in test_take_item_from_room_with_many_things" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_take_item - 2017.01.17 at 20h 33m 42s.xml">
-      <configuration name="py.test in test_take_item" configurationId="tests" />
+    <history-entry file="py_test_in_test_take_item_from_room_with_many_things - 2017.01.17 at 20h 55m 43s.xml">
+      <configuration name="py.test in test_take_item_from_room_with_many_things" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_takeitemaction_py - 2017.01.17 at 20h 19m 06s.xml">
-      <configuration name="py.test in test_takeitemaction.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_take_item_from_room_with_many_things - 2017.01.17 at 20h 56m 27s.xml">
+      <configuration name="py.test in test_take_item_from_room_with_many_things" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_takeitemaction_py - 2017.01.17 at 20h 19m 14s.xml">
-      <configuration name="py.test in test_takeitemaction.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_take_item_from_room_with_many_things - 2017.01.17 at 20h 57m 08s.xml">
+      <configuration name="py.test in test_take_item_from_room_with_many_things" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_takeitemaction_py - 2017.01.17 at 20h 19m 27s.xml">
-      <configuration name="py.test in test_takeitemaction.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_take_item_from_room_with_many_things - 2017.01.17 at 20h 57m 15s.xml">
+      <configuration name="py.test in test_take_item_from_room_with_many_things" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31771597" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -701,7 +676,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33438486" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33438486" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -747,8 +722,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/tests/test_takeitemaction.py</url>
-          <line>59</line>
-          <option name="timeStamp" value="3" />
+          <line>73</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/room.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -758,7 +738,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1131,22 +1111,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/room.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="63" column="16" lean-forward="false" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/actions/take.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1163,10 +1127,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/room.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_takeitemaction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="61" column="36" lean-forward="true" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+        <state relative-caret-position="285">
+          <caret line="72" column="27" lean-forward="false" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
           <folding />
         </state>
       </provider>

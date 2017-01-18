@@ -14,13 +14,16 @@ class MockRepository:
 
 @pytest.fixture()
 def item_repository():
-    return MockRepository(Items(id = 1, name = "rock", desc = "a rock", long_desc = "a rock", weight = 1, value = 1, can_pick_up = "True", is_magical = "True", is_cursed = "False", keywords = [], type = "Item"))
+    return MockRepository(Items(id = 1, name = "rock", desc = "a rock", long_desc = "a rock", weight = 1, value = 1, can_pick_up = "True", is_magical = "True", is_cursed = "False", keywords = [], type = "Item"),
+                          Items(id=2, name="feather", desc="a rock", long_desc="a feather", weight=1, value=1,
+                                can_pick_up="True", is_magical="True", is_cursed="False", keywords=[], type="Item"),)
 
 @pytest.fixture()
 def room_repository():
     return MockRepository(Room(id = 1, name = "A room", description = "description", neighbors= {"e": 2}, npc_inv=[], items_inv =[1], indoors = True, terrain = "Room", lighting = 100, room_description = {}),
                           Room(id = 2, name = "A room is here",
-                               description = "description is longer", neighbors= {"w": 1}, npc_inv=[], items_inv ={}, indoors = True, terrain = "Room", lighting = 100, room_description = {})
+                               description = "description is longer", neighbors= {"w": 1}, npc_inv=[], items_inv ={}, indoors = True, terrain = "Room", lighting = 100, room_description = {}),
+    Room(id=3, name="A room is here", description="description is longer", neighbors={"w": 1}, npc_inv=[], items_inv={1,2}, indoors=True, terrain="Room", lighting=100, room_description={})
                           )
 
 
@@ -61,6 +64,18 @@ def test_take_item(state,takeaction, room_repository, item_repository):
     assert len(state.player.inventory) == 1
     assert len(room._items_inv) == 0
 
+def test_take_item_from_room_with_many_things(state, takeaction, room_repository, item_repository):
+    state.room_id = 3
+    room = room_repository.get_by_id(3)
+    item = map(item_repository.get_by_id, room.get_item_ids())
+    assert len(state.player.inventory) == 0
+    assert len(room._items_inv) == 2
+    assert state.room_id == 3
+    takeaction.do(state, itemname="rock")
+    assert len(state.player.inventory) == 1
+    assert len(room._items_inv) == 1
+
+
 def test_take_item_nonexistant(state, takeaction, room_repository):
     room = room_repository.get_by_id(state.room_id)
     assert len(state.player.inventory) == 0
@@ -68,6 +83,9 @@ def test_take_item_nonexistant(state, takeaction, room_repository):
     takeaction.do(state, itemname = "Bob")
     assert len(state.player.inventory) == 0
     assert len(room._items_inv) == 1
+
+def test_takeitems_from_keywords():
+    pass
 
 
 def test_take_item_using_keyword(state,takeaction,room_repository):
