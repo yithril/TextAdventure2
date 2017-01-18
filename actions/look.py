@@ -60,7 +60,7 @@ class LookAction:
         room = self.room_repository.get_by_id(state.room_id)
         if direction and direction != "here":
             if room.neighbor(direction):
-                room = room.neighbor(direction)
+                room = self.room_repository.get_by_id(room.neighbor(direction))
                 """Is it in the room description?"""
             elif direction in room.get_room_description():
                 self.print_specific_description(room.get_room_description().get(direction))

@@ -1,0 +1,15 @@
+{
+  "id": 18,
+  "type": "Items",
+  "name": "wooden sign",
+  "desc": "A small wooden sign hanging on the wall.",
+  "long_desc": "----------------------------Helpful Commands----------------------------Type <help> for a list of commands.----------------------------------\n move <direction : Type move e to move your character east.--------------Type <look> to see the current room.----------------------------------Type <look> *direction* to look at a room in that direction.---------Type <look> *npc or item* to look at an item or npc inside the room.",
+  "weight": 8,
+  "value": 30,
+  "can_pick_up": "False",
+  "is_magical": "False",
+  "is_cursed": "False",
+  "keywords": ["sign"]
+
+}
+

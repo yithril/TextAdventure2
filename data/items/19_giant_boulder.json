@@ -1,0 +1,15 @@
+{
+  "id": 19,
+  "type": "Items",
+  "name": "giant boulder",
+  "desc": "A small wooden sign hanging on the wall.",
+  "long_desc": "A huge boulder.  It looks like it may need 100 men to carry",
+  "weight": 800,
+  "value": 30,
+  "can_pick_up": "True",
+  "is_magical": "False",
+  "is_cursed": "False",
+  "keywords": ["boulder"]
+
+}
+

@@ -3,7 +3,7 @@
   "description" : "Despite the grand name, the Hall of Heroes is a rather tidy, spartan room with few adornments on the wall.  There is a faded red rug on the floor with a stamped out image of a lion grasping the sun, the symbol of the kingdom of Alterone.  The brick walls are chipped and scarred at random intervals, and the furniture has seen better days to say the least.",
   "neighbors" : {"e":2},
      "npc_inv": [9],
-     "items_inv" : [10, 12, 14],
+     "items_inv" : [18, 19],
      "indoors" : "True",
      "terrain" : "room",
    "lighting": 80,

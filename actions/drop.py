@@ -10,6 +10,7 @@ class DropItemAction():
             item = self.item_repository.get_by_id(itemid)
             if itemname == item.get_name():
                 print("You drop the",item.get_name())
+                player.add_encumbrance(-(item.get_weight()))
                 room.add_item(item.get_id())
                 player.inventory.remove(item.get_id())
                 return
@@ -17,6 +18,7 @@ class DropItemAction():
             item = self.item_repository.get_by_id(itemid)
             if itemname in item.get_keywords():
                 print("You drop the", item.get_name())
+                player.add_encumbrance(-(item.get_weight()))
                 room.add_item(item.get_id)
                 player.inventory.remove(item.get_id())
                 return

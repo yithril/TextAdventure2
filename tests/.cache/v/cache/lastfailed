@@ -1,8 +1,1 @@
-{
-  "test_factory.py::test_character_loads": true,
-  "test_factory.py::test_room_loads": true,
-  "test_factory.py::test_weapon_loads": true,
-  "test_repository.py::test_repository": true,
-  "test_room_actions.py::test_look[directions1-1]": true,
-  "test_room_actions.py::test_look[directions2-1]": true
-}
+{}

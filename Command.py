@@ -4,6 +4,7 @@ import textwrap
 from Action_repository import ActionRepo
 from Character import Character
 from Game_State import Game_State
+from actions.gold import Gold
 from actions.inventory import Inventory
 from actions.move import MoveAction
 from actions.look import LookAction
@@ -38,14 +39,20 @@ class Game(cmd.Cmd):
 
     """Syntax: take <item>"""
     def do_take(self, itemname):
-        print(action_repo.get_by_name("take").do(self.game_state, itemname))
+        action_repo.get_by_name("take").do(self.game_state, itemname)
 
     """Syntax: drop <item>"""
     def do_drop(self, itemname):
-        print(action_repo.get_by_name("drop").do(self.game_state, itemname))
+        action_repo.get_by_name("drop").do(self.game_state, itemname)
 
     def do_inventory(self, args):
-        print(action_repo.get_by_name("inventory").do(self.game_state))
+        action_repo.get_by_name("inventory").do(self.game_state)
+
+    def do_gold(self, args):
+        action_repo.get_by_name("gold").do(self.game_state)
+
+    def do_status(self,args):
+        pass
 
     def do_quit(self, args):
         print("Thanks for playing!")
@@ -67,6 +74,7 @@ if __name__ == "__main__":
     action_repo.add("take", TakeItemAction(room_repo, item_repo))
     action_repo.add("drop", DropItemAction(room_repo, item_repo))
     action_repo.add("inventory", Inventory(item_repo))
-    player = Character("Character", "George", [], description = "A player", keywords = [], race = "Human", sex = "Male", guild = "Paladin", ac = 10, mp = 10, hp = 10, strength = 10, dexterity=10, constitution=10, intelligence=10, wisdom=10, charisma=10, level=1, gold=100, xp=0, encumbrance=20, feats=[])
+    action_repo.add("gold", Gold())
+    player = Character("Character", "George", [], description = "A player", keywords = [], race = "Human", sex = "Male", guild = "Paladin", ac = 10, mp = 10, hp = 10, strength = 10, dexterity=10, constitution=10, intelligence=10, wisdom=10, charisma=10, level=1, gold=100, xp=0, encumbrance=0, feats=[])
     g = Game()
     g.cmdloop()

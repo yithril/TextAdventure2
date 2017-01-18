@@ -69,6 +69,9 @@ class Character(object):
     def get_gold(self):
         return self._gold
 
+    def get_encumbrance(self):
+        return self._encumbrance
+
     """Sets target stat to a specific number"""
     def set_stat(self,stat,number):
         self.stats[stat] = number

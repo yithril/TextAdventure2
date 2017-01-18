@@ -3,6 +3,7 @@ from Armor import Armor
 from Character import Character
 from Weapon import Weapon
 from Wands import Wands
+from items import Items
 from room import Room
 
 class Chained_Factory():
@@ -35,6 +36,7 @@ Room_Factory_Class = Generic_Factory(Room)
 Weapon_Factory_Class = make_typed_factory(Weapon)
 Armor_Factory_Class = make_typed_factory(Armor)
 Wand_Factory_Class = make_typed_factory(Wands)
+Items_Factory_Class = make_typed_factory(Items)
 Character_Factory_Class = Generic_Factory(Character)
 
 
@@ -42,8 +44,9 @@ Room_Factory = Room_Factory_Class()
 Weapon_Factory = Weapon_Factory_Class()
 Armor_Factory = Armor_Factory_Class()
 Wand_Factory = Wand_Factory_Class()
+Items_Factory = Items_Factory_Class()
 Character_Factory = Character_Factory_Class()
 
-Item_Factory = Chained_Factory([Weapon_Factory,Armor_Factory,Wand_Factory])
+Item_Factory = Chained_Factory([Weapon_Factory,Armor_Factory,Wand_Factory, Items_Factory])
 
 
