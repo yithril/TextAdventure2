@@ -1,11 +1,13 @@
 
 
 class Character(object):
-    def __init__(self, name, inventory, type):
+    def __init__(self, name, inventory, type, description, keywords):
         assert isinstance(inventory, list)
         self.inventory = inventory
         self.name = name
         self.type = type
+        self._description = description
+        self._keywords = keywords
 
     def __eq__(self, other):
         """Override the default Equals behavior"""
@@ -34,3 +36,9 @@ class Character(object):
 
     def get_inventory_ids(self):
         return self.inventory
+
+    def get_description(self):
+        return self._description
+
+    def get_keywords(self):
+        return self._keywords

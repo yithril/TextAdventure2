@@ -62,6 +62,6 @@ if __name__ == "__main__":
     action_repo.add("look", LookAction(room_repo, npc_repo, item_repo))
     action_repo.add("take", TakeItemAction(room_repo, item_repo))
     action_repo.add("drop", DropItemAction(room_repo, item_repo))
-    player = Character("George", [], type = "Character")
+    player = Character("George", [], type = "Character", description = "A player", keywords = [])
     g = Game()
     g.cmdloop()

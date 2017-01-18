@@ -1,7 +1,8 @@
 {
   "type": "Character",
   "name": "Martin the Gray Wizard",
-  "inventory": []
-
+  "inventory": [],
+  "description": "Martin is a wizened old wizard with long strands of silky gray hair that flows down to his waist.  He is draped in dark gray and light gray robes and a pointed straw hat.",
+  "keywords": ["Martin", "martin", "wizard", "gray wizard", "Gray Wizard" ]
 
 }

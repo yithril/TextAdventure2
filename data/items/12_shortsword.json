@@ -3,7 +3,7 @@
   "type": "Weapon",
   "name": "iron shortsword",
   "desc": "A short, decently constructed iron longsword.",
-  "long_desc": "This longsword does not feel too heavy.  The blade is somewhat rusted on the edges, and the sides are not as keen as they could be.",
+  "long_desc": "This shortsword does not feel too heavy.  The blade is somewhat rusted on the edges, and the sides are not as keen as they could be.",
   "weight": 8,
   "value": 30,
   "can_pick_up": "True",

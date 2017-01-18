@@ -1,7 +1,9 @@
 {
   "type": "Character",
   "name": "Josephus the Black Wizard",
-  "inventory": []
+  "inventory": [],
+  "description": "Josephus is a rather handsome, rugged wizard, far from the usual perception of a pale bookworm.  His cleft jaw and stark features are striking.  His hair is jet black, slick, and cropped back.  His robes are as dark as night, and occasionally, you see a twinkle of what could be starlight.",
+  "keywords": ["Josephus", "josephus", "black wizard", "Black Wizard", "wizard"]
 
 
 }

@@ -1,7 +1,9 @@
 {
   "type": "Character",
   "name": "Loras the Barkeep",
-  "inventory": []
+  "inventory": [],
+  "description": "Loras' grin is as slimy as the bar he keeps. He has short, sandy blonde hair, and has a rather slight frame that might not inspire confidence in combat. He wears a tan vest and white shirt.  He moves to and fro, cleaning glasses.",
+  "keywords": ["loras", "Loras", "barkeep", "Barkeep"]
 
 
 }

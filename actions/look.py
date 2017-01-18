@@ -9,10 +9,12 @@ class LookAction:
         self.item_repository = item_repository
 
     def print_npc(self, npc):
-        return ""
+        for line in textwrap.wrap(npc.get_description(),72):
+            print(line)
 
     def print_item(self, item):
-        return ""
+        for line in textwrap.wrap(item.get_long_desc(),72):
+            print(line)
 
     def print_room(self, room):
         print(room.get_name())
@@ -61,11 +63,18 @@ class LookAction:
                     item = self.item_repository.get_by_id(item_id)
                     if item.get_name() == direction:
                         return self.print_item(item)
-
+                for item_id in room.get_item_ids():
+                    item = self.item_repository.get_by_id(item_id)
+                    if direction in item.get_keywords():
+                        return self.print_item(item)
                 # is it an npc
                 for npc_id in room.get_npc_inv():
                     npc = self.npc_repository.get_by_id(npc_id)
                     if npc.get_name() == direction:
+                        return self.print_npc(npc)
+                for npc_id in room.get_npc_inv():
+                    npc = self.npc_repository.get_by_id(npc_id)
+                    if direction in npc.get_keywords():
                         return self.print_npc(npc)
 
                 return "Can't look that way"

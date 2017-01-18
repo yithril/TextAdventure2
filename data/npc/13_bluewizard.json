@@ -1,7 +1,9 @@
 {
   "type": "Character",
   "name": "Cara the White Wizard",
-  "inventory": []
+  "inventory": [],
+  "description": "Cara's face is soft and gentle, framed by spiraling curls of bleached hair.  Her skin is nearly translucent and looks like it might be cool to the touch.  Her white robes are plush and hide her frame well among their thick folds.",
+  "keywords": ["cara", "Cara", "white wizard","White wizard","wizard"]
 
 
 }

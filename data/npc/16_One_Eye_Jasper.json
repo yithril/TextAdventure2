@@ -1,7 +1,9 @@
 {
   "type": "Character",
   "name": "One-eyed Jasper the Combat Master",
-  "inventory": []
+  "inventory": [],
+  "description": "Jasper's muscled body is riddled with scars and scabs from recent wounds.  His head is shaved spotless and his bushy, fire red eyebrows bob up and down as he lets out a guffaw.  He dons an eye patch over his left eye, no doubt a trophy from his much talked about days in the arena.  His grin is dotted with holes.",
+  "keywords": ["jasper", "Jasper", "combat master"]
 
 
 }
