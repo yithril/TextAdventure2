@@ -70,3 +70,6 @@ class Items(object):
 
     def get_weight(self):
         return self._weight
+
+    def get_keywords(self):
+        return self._keywords

@@ -3,6 +3,7 @@ from items import Items
 
 class Weapon(Items):
     def __init__(self,
+                 id,
                  name,
                  desc,
                  long_desc,
@@ -21,7 +22,7 @@ class Weapon(Items):
                  damage_hit_dice_coefficient,
                  damage_stat,
                  damage_type):
-        super().__init__(name, desc, long_desc, weight, value, can_pick_up, is_magical, is_cursed, keywords,type)
+        super().__init__(id, name, desc, long_desc, weight, value, can_pick_up, is_magical, is_cursed, keywords,type)
         self.handed = handed
         self.offhand = offhand
         self.weapon_type = weapon_type

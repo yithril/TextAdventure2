@@ -31,3 +31,6 @@ class Character(object):
 
     def get_name(self):
         return self.name
+
+    def get_inventory_ids(self):
+        return self.inventory

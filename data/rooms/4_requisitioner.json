@@ -2,7 +2,7 @@
      "name" : "Requisitions",
   "description" : "The walls of this room are a jumble of weapons, armor, pieces of cloth and leather, as well as a variety of knickknacks.  There is a desk on the far wall covered in unkempt stacks of papers and half finished paintings hanging crooked on the walls.",
   "neighbors" : {"n":2},
-     "npc_inv": [],
+     "npc_inv": [15],
      "items_inv" : {},
      "indoors" : "True",
      "terrain" : "room",

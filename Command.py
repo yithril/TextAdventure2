@@ -20,19 +20,28 @@ class Game(cmd.Cmd):
     def __init__(self):
         cmd.Cmd.__init__(self)
         self.game_state = Game_State(1, player)
+        self.do_look(None)
         self.prompt = '>>'
 
+    """Syntax: Look, Look <direction>, or Look <item or npc>"""
     def do_look(self,dir):
         action_repo.get_by_name("look").do(self.game_state, dir)
 
+    """Syntax move <direction>.  Valid directions are listed in exits."""
     def do_move(self, dir):
         if not dir:
             print("You must input a direction to move in,")
         else:
             action_repo.get_by_name("move").do(self.game_state,dir)
+            action_repo.get_by_name("look").do(self.game_state, None)
 
+    """Syntax: take <item>"""
     def do_take(self, itemname):
         print(action_repo.get_by_name("take").do(self.game_state, itemname))
+
+    """Syntax: drop <item>"""
+    def do_drop(self, itemname):
+        print(action_repo.get_by_name("drop").do(self.game_state, itemname))
 
     def do_quit(self):
         print("Thanks for playing!")
@@ -51,8 +60,8 @@ if __name__ == "__main__":
     action_repo = ActionRepo()
     action_repo.add("move", MoveAction(room_repo))
     action_repo.add("look", LookAction(room_repo, npc_repo, item_repo))
-    action_repo.add("take", TakeItemAction(room_repo))
-    action_repo.add("drop", DropItemAction(room_repo))
+    action_repo.add("take", TakeItemAction(room_repo, item_repo))
+    action_repo.add("drop", DropItemAction(room_repo, item_repo))
     player = Character("George", [], type = "Character")
     g = Game()
     g.cmdloop()
