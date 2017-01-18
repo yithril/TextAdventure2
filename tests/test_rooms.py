@@ -4,8 +4,8 @@ from room import Room
 
 
 
-test_room1 = Room(id = 1, name = "A room", description = "description", neighbors= {"e": "room"}, npc_inv=[], items_inv =[], indoors = True, terrain = "Room")
-test_room2 = Room(id = 2, name = "A room is here", description = "description is longer", neighbors= {"w": "a different room"}, npc_inv=[], items_inv =[], indoors = True, terrain = "Room")
+test_room1 = Room(id = 1, name = "A room", description = "description", neighbors= {"e": "room"}, npc_inv=[], items_inv =[], indoors = True, terrain = "Room", lighting = 100, room_description = {})
+test_room2 = Room(id = 2, name = "A room is here", description = "description is longer", neighbors= {"w": "a different room"}, npc_inv=[], items_inv =[], indoors = True, terrain = "Room", lighting = 100, room_description = {})
 
 
 def test_room_is_not_none():

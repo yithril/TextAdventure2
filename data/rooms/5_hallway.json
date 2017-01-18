@@ -1,0 +1,11 @@
+{ "id": 5,
+     "name" : "Hallway",
+  "description" : "There is a long red carpet leading east through the corridor.  The walls are threadbare.",
+  "neighbors" : {"w":2, "e":6},
+     "npc_inv": [],
+     "items_inv" : {},
+     "indoors" : "True",
+     "terrain" : "room",
+     "lighting": 80,
+     "room_description" : {}
+  }

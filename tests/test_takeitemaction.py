@@ -1,6 +1,7 @@
 import pytest
 
 from Game_State import Game_State
+from items import Items
 from room import Room
 
 
@@ -12,28 +13,35 @@ class MockRepository:
         return self._repo[id]
 
 @pytest.fixture()
+def item_repository():
+    return MockRepository(Items(id = 1, name = "rock", desc = "a rock", long_desc = "a rock", weight = 1, value = 1, can_pick_up = "True", is_magical = "True", is_cursed = "False", keywords = [], type = "Item"))
+
+@pytest.fixture()
 def room_repository():
-    return MockRepository(Room(id = 1, name = "A room", description = "description", neighbors= {"e": 2}, npc_inv=[], items_inv ={
-        "rock":1
-    }, indoors = True, terrain = "Room"),
+    return MockRepository(Room(id = 1, name = "A room", description = "description", neighbors= {"e": 2}, npc_inv=[], items_inv =[1], indoors = True, terrain = "Room", lighting = 100, room_description = {}),
                           Room(id = 2, name = "A room is here",
-                               description = "description is longer", neighbors= {"w": 1}, npc_inv=[], items_inv ={}, indoors = True, terrain = "Room")
+                               description = "description is longer", neighbors= {"w": 1}, npc_inv=[], items_inv ={}, indoors = True, terrain = "Room", lighting = 100, room_description = {})
                           )
 
+
 class TakeItemAction():
-    def __init__(self, room_repository):
+    def __init__(self, room_repository, item_repository):
         self.room_repository = room_repository
+        self.item_repository = item_repository
 
     def do(self, state, itemname):
         room = self.room_repository.get_by_id(state.room_id)
         player = state.player
-        if itemname in room._items_inv:
-            player.inventory[itemname] = room._items_inv[itemname]
-            del room._items_inv[itemname]
+        for itemid in room.get_item_ids():
+            item = self.item_repository.get_by_id(itemid)
+            if itemname == item.get_name():
+                player.inventory.append(item.get_id())
+                room.remove_item(item.get_id())
+                return
 
 class MockPlayer():
     def __init__(self):
-        self.inventory = {}
+        self.inventory = []
 
 @pytest.fixture()
 def state():
@@ -41,11 +49,12 @@ def state():
 
 
 @pytest.fixture()
-def takeaction(room_repository):
-    return TakeItemAction(room_repository)
+def takeaction(room_repository, item_repository):
+    return TakeItemAction(room_repository, item_repository)
 
-def test_take_item(state,takeaction, room_repository):
+def test_take_item(state,takeaction, room_repository, item_repository):
     room = room_repository.get_by_id(state.room_id)
+    item = map(item_repository.get_by_id, room.get_item_ids())
     assert len(state.player.inventory) == 0
     assert len(room._items_inv) == 1
     takeaction.do(state, itemname = "rock")
@@ -59,3 +68,10 @@ def test_take_item_nonexistant(state, takeaction, room_repository):
     takeaction.do(state, itemname = "Bob")
     assert len(state.player.inventory) == 0
     assert len(room._items_inv) == 1
+
+
+def test_take_item_using_keyword(state,takeaction,room_repository):
+    rock = Items(id = 1, name = "rock", desc = "a rock", long_desc = "a rock", weight = 1, value = 1, can_pick_up = "True", is_magical = "True", is_cursed = "False", keywords = [], type = "Item")
+    room = room_repository.get_by_id(state.room_id)
+    takeaction.do(state, itemname = "rock")
+

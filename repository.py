@@ -7,6 +7,3 @@ class Repository(object):
     def get_by_id(self, id):
         d = self._loader.load(id)
         return self._factory.create(d)
-
-
-

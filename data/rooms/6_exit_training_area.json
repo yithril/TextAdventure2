@@ -1,0 +1,11 @@
+{ "id": 6,
+     "name" : "Gate",
+  "description" : "A rusted, wrought iron gate lies to the east, leading out into a wide courtyard and the town of Hearthshire.  There are red banners hanging on the side of the portal, lions grasping at suns, the symbol of the royal family.",
+  "neighbors" : {"w":5, "n": 8, "s":7},
+     "npc_inv": [],
+     "items_inv" : {},
+     "indoors" : "True",
+     "terrain" : "room",
+     "lighting": 80,
+  "room_description" : {}
+  }

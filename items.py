@@ -3,6 +3,7 @@ import random
 
 class Items(object):
     def __init__(self,
+                 id,
                  name,
                  desc,
                  long_desc,
@@ -14,7 +15,7 @@ class Items(object):
                  keywords,
                  type,
                  ):
-
+        self._id = id
         self._weight = int(weight)
         self._name = name
         self._desc = desc
@@ -49,8 +50,8 @@ class Items(object):
     def __str__(self):
         return self.get_name()
 
-
-
+    def get_id(self):
+        return self._id
 
     def get_name(self):
         return self._name

@@ -2,43 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f9fa4d5-70f2-4454-ba17-38975e74d0e3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Command.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/actions/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/test_action_repository.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spells/magic_missile.json" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/guilds/barbarian.json" afterPath="$PROJECT_DIR$/data/guilds/barbarian.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/guilds/bard.json" afterPath="$PROJECT_DIR$/data/guilds/bard.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/guilds/cleric.json" afterPath="$PROJECT_DIR$/data/guilds/cleric.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/guilds/druid.json" afterPath="$PROJECT_DIR$/data/guilds/druid.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/guilds/fighter.json" afterPath="$PROJECT_DIR$/data/guilds/fighter.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/guilds/monk.json" afterPath="$PROJECT_DIR$/data/guilds/monk.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/guilds/paladin.json" afterPath="$PROJECT_DIR$/data/guilds/paladin.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/guilds/ranger.json" afterPath="$PROJECT_DIR$/data/guilds/ranger.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/guilds/rogue.json" afterPath="$PROJECT_DIR$/data/guilds/rogue.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/guilds/wizard.json" afterPath="$PROJECT_DIR$/data/guilds/wizard.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/items/1_longsword.json" afterPath="$PROJECT_DIR$/data/items/1_longsword.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/npc/1_greywizard" afterPath="$PROJECT_DIR$/data/npc/1_greywizard" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/races/dwarf.json" afterPath="$PROJECT_DIR$/data/races/dwarf.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/races/elf.json" afterPath="$PROJECT_DIR$/data/races/elf.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/races/gnome.json" afterPath="$PROJECT_DIR$/data/races/gnome.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/races/half-elf.json" afterPath="$PROJECT_DIR$/data/races/half-elf.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/races/half-orc.json" afterPath="$PROJECT_DIR$/data/races/half-orc.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/races/halfling.json" afterPath="$PROJECT_DIR$/data/races/halfling.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/races/human.json" afterPath="$PROJECT_DIR$/data/races/human.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rooms/1_great_hall.json" afterPath="$PROJECT_DIR$/data/rooms/1_great_hall.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rooms/2_dining_room.json" afterPath="$PROJECT_DIR$/data/rooms/2_dining_room.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/TextAdventureRedux.iml" afterPath="$PROJECT_DIR$/.idea/TextAdventureRedux.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/items/12_shortsword.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/items/14_handaxe.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/npc/11_blackwizard.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/npc/13_bluewizard.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/npc/9_greywizard.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/rooms/2_hallway.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/rooms/3_training_dummy.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/rooms/4_requisitioner.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/rooms/5_hallway.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/rooms/6_exit_training_area.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/rooms/7_training_dummy_2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/rooms/8_bar.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/room_loader.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/npc/1_greywizard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/rooms/1_great_hall.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/rooms/2_dining_room.json" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/items/1_longsword.json" afterPath="$PROJECT_DIR$/data/items/10_longsword.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Action_repository.py" afterPath="$PROJECT_DIR$/Action_repository.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Weapon.py" afterPath="$PROJECT_DIR$/Weapon.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Character.py" afterPath="$PROJECT_DIR$/Character.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Command.py" afterPath="$PROJECT_DIR$/Command.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actions/look.py" afterPath="$PROJECT_DIR$/actions/look.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actions/take.py" afterPath="$PROJECT_DIR$/actions/take.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/factory.py" afterPath="$PROJECT_DIR$/factory.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/items.py" afterPath="$PROJECT_DIR$/items.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repository.py" afterPath="$PROJECT_DIR$/repository.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/room.py" afterPath="$PROJECT_DIR$/room.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/terminalapp.py" afterPath="$PROJECT_DIR$/terminalapp.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_drop_item.py" afterPath="$PROJECT_DIR$/tests/test_drop_item.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_factory.py" afterPath="$PROJECT_DIR$/tests/test_factory.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_look_action.py" afterPath="$PROJECT_DIR$/tests/test_look_action.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_repository.py" afterPath="$PROJECT_DIR$/tests/test_repository.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_room_actions.py" afterPath="$PROJECT_DIR$/tests/test_room_actions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_rooms.py" afterPath="$PROJECT_DIR$/tests/test_rooms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_takeitemaction.py" afterPath="$PROJECT_DIR$/tests/test_takeitemaction.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,8 +52,8 @@
       <file leaf-file-name="Command.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Command.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="47" column="54" lean-forward="false" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
+            <state relative-caret-position="207">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -65,24 +61,84 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="repository.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/repository.py">
+      <file leaf-file-name="Action_repository.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Action_repository.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_factory.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test_factory.py">
+      <file leaf-file-name="1_great_hall.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/rooms/1_great_hall.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="71" column="22" lean-forward="true" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
+            <state relative-caret-position="170">
+              <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="room.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/room.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="63" column="16" lean-forward="false" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="look.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/actions/look.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="take.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/actions/take.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_takeitemaction.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/test_takeitemaction.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="61" column="36" lean-forward="true" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Character.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Character.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/items.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,38 +166,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rooms.py" />
-        <option value="$PROJECT_DIR$/tests/test_drop_item.py" />
-        <option value="$PROJECT_DIR$/tests/test_takeitemaction.py" />
-        <option value="$PROJECT_DIR$/tests/test_room_actions.py" />
-        <option value="$PROJECT_DIR$/tests/test_rooms.py" />
         <option value="$PROJECT_DIR$/Items.py" />
         <option value="$PROJECT_DIR$/Armor.py" />
         <option value="$PROJECT_DIR$/Wands.py" />
         <option value="$PROJECT_DIR$/tests/data/npc/1_greywizard" />
         <option value="$PROJECT_DIR$/tests/data/items/1_longsword.json" />
-        <option value="$PROJECT_DIR$/Character.py" />
         <option value="$PROJECT_DIR$/tests/test_file_loader.py" />
-        <option value="$PROJECT_DIR$/tests/test_repository.py" />
         <option value="$PROJECT_DIR$/Game_Screen.py" />
         <option value="$PROJECT_DIR$/actions/look_action.py" />
-        <option value="$PROJECT_DIR$/actions/take.py" />
         <option value="$PROJECT_DIR$/actions/drop.py" />
         <option value="$PROJECT_DIR$/tests/test_action_repository.py" />
-        <option value="$PROJECT_DIR$/tests/test_look_action.py" />
-        <option value="$PROJECT_DIR$/items.py" />
         <option value="$PROJECT_DIR$/Weapon.py" />
         <option value="$PROJECT_DIR$/__init__.py" />
         <option value="$PROJECT_DIR$/Action_repository.py" />
         <option value="$PROJECT_DIR$/terminalapp.py" />
-        <option value="$PROJECT_DIR$/actions/look.py" />
-        <option value="$PROJECT_DIR$/repository.py" />
-        <option value="$PROJECT_DIR$/data/rooms/1_great_hall.json" />
         <option value="$PROJECT_DIR$/actions/move.py" />
-        <option value="$PROJECT_DIR$/room.py" />
-        <option value="$PROJECT_DIR$/Command.py" />
-        <option value="$PROJECT_DIR$/factory.py" />
+        <option value="$PROJECT_DIR$/data/rooms/2_dining_room.json" />
+        <option value="$PROJECT_DIR$/tests/test_repository.py" />
+        <option value="$PROJECT_DIR$/room_loader.py" />
+        <option value="$PROJECT_DIR$/tests/test_drop_item.py" />
+        <option value="$PROJECT_DIR$/tests/test_room_actions.py" />
+        <option value="$PROJECT_DIR$/tests/test_rooms.py" />
+        <option value="$PROJECT_DIR$/data/rooms/2_hallway.json" />
+        <option value="$PROJECT_DIR$/data/rooms/3_training_dummy" />
+        <option value="$PROJECT_DIR$/data/rooms/4_requisitioner" />
+        <option value="$PROJECT_DIR$/data/rooms/5_hallway" />
+        <option value="$PROJECT_DIR$/data/rooms/6_exit_training_area" />
+        <option value="$PROJECT_DIR$/data/rooms/7_training_dummy_2" />
+        <option value="$PROJECT_DIR$/data/rooms/8_bar" />
+        <option value="$PROJECT_DIR$/data/rooms/3_training_dummy.json" />
+        <option value="$PROJECT_DIR$/Game_State.py" />
+        <option value="$PROJECT_DIR$/repository.py" />
+        <option value="$PROJECT_DIR$/data/items/1_longsword.json" />
+        <option value="$PROJECT_DIR$/data/npc/1_greywizard" />
+        <option value="$PROJECT_DIR$/caching_repository_npc.py" />
+        <option value="$PROJECT_DIR$/data/npc/8_greywizard.json" />
+        <option value="$PROJECT_DIR$/tests/test_look_action.py" />
         <option value="$PROJECT_DIR$/tests/test_factory.py" />
+        <option value="$PROJECT_DIR$/factory.py" />
+        <option value="$PROJECT_DIR$/room.py" />
+        <option value="$PROJECT_DIR$/actions/look.py" />
+        <option value="$PROJECT_DIR$/data/npc/11_blackwizard.json" />
+        <option value="$PROJECT_DIR$/data/items/12_shortsword.json" />
+        <option value="$PROJECT_DIR$/data/npc/13_bluewizard.json" />
+        <option value="$PROJECT_DIR$/data/items/14_handaxe.json" />
+        <option value="$PROJECT_DIR$/data/rooms/1_great_hall.json" />
+        <option value="$PROJECT_DIR$/data/items/10_longsword.json" />
+        <option value="$PROJECT_DIR$/Command.py" />
+        <option value="$PROJECT_DIR$/actions/take.py" />
+        <option value="$PROJECT_DIR$/items.py" />
+        <option value="$PROJECT_DIR$/tests/test_takeitemaction.py" />
+        <option value="$PROJECT_DIR$/Character.py" />
       </list>
     </option>
   </component>
@@ -167,7 +242,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -225,10 +299,6 @@
               <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="races" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -276,30 +346,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guilds" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TextAdventure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TextAdventure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="actions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -307,59 +360,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Coding\Python\TextAdventure\data\items" />
+      <recent name="C:\Coding\Python\TextAdventure\data\npc" />
+      <recent name="C:\Coding\Python\TextAdventure\data\rooms" />
+      <recent name="C:\Coding\Python\TextAdventure\data" />
+      <recent name="C:\Coding\Python\TextAdventure\actions" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Coding\Python\TextAdventureRedux\tests\data" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Coding\Python\TextAdventure\data" />
-      <recent name="C:\Coding\Python\TextAdventure\actions" />
-      <recent name="C:\Coding\Python\TextAdventure" />
-      <recent name="C:\Coding\Python\TextAdventure\tests" />
-      <recent name="C:\Coding\Python\TextAdventureRedux\items" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python tests.All">
-    <configuration default="false" name="py.test in test_factory.py" type="tests" factoryName="py.test" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TextAdventureRedux" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="$PROJECT_DIR$/tests/test_factory.py" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="test_look_action" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TextAdventureRedux" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_look_action.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.py.test in test_take_item">
     <configuration default="false" name="terminalapp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -409,6 +421,54 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Command.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test in test_takeitemaction.py" type="tests" factoryName="py.test" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TextAdventureRedux" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="$PROJECT_DIR$/tests/test_takeitemaction.py" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test in test_take_item" type="tests" factoryName="py.test" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TextAdventureRedux" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="$PROJECT_DIR$/tests/test_takeitemaction.py" />
+      <option name="keywords" value="test_take_item" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -571,19 +631,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python tests.All" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_factory.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test_look_action" />
-      <item index="3" class="java.lang.String" itemvalue="Python.terminalapp" />
-      <item index="4" class="java.lang.String" itemvalue="Python.items" />
-      <item index="5" class="java.lang.String" itemvalue="Python.Command" />
+      <item index="1" class="java.lang.String" itemvalue="Python.terminalapp" />
+      <item index="2" class="java.lang.String" itemvalue="Python.items" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Command" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_takeitemaction.py" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.py.test in test_take_item" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Command" />
-        <item index="1" class="java.lang.String" itemvalue="Python.terminalapp" />
-        <item index="2" class="java.lang.String" itemvalue="Python.items" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test_look_action" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_factory.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_take_item" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_takeitemaction.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Command" />
+        <item index="3" class="java.lang.String" itemvalue="Python.terminalapp" />
+        <item index="4" class="java.lang.String" itemvalue="Python.items" />
       </list>
     </recent_temporary>
   </component>
@@ -601,35 +661,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All - 2017.01.16 at 22h 14m 03s.xml">
-      <configuration name="All" configurationId="tests" />
+    <history-entry file="py_test_in_test_take_item - 2017.01.17 at 20h 21m 07s.xml">
+      <configuration name="py.test in test_take_item" configurationId="tests" />
     </history-entry>
-    <history-entry file="All - 2017.01.16 at 22h 16m 47s.xml">
-      <configuration name="All" configurationId="tests" />
+    <history-entry file="py_test_in_test_take_item - 2017.01.17 at 20h 21m 11s.xml">
+      <configuration name="py.test in test_take_item" configurationId="tests" />
     </history-entry>
-    <history-entry file="All - 2017.01.16 at 22h 17m 18s.xml">
-      <configuration name="All" configurationId="tests" />
+    <history-entry file="py_test_in_test_take_item - 2017.01.17 at 20h 22m 25s.xml">
+      <configuration name="py.test in test_take_item" configurationId="tests" />
     </history-entry>
-    <history-entry file="All - 2017.01.16 at 22h 17m 57s.xml">
-      <configuration name="All" configurationId="tests" />
+    <history-entry file="py_test_in_test_take_item - 2017.01.17 at 20h 22m 51s.xml">
+      <configuration name="py.test in test_take_item" configurationId="tests" />
     </history-entry>
-    <history-entry file="All - 2017.01.16 at 22h 18m 49s.xml">
-      <configuration name="All" configurationId="tests" />
+    <history-entry file="py_test_in_test_take_item - 2017.01.17 at 20h 32m 43s.xml">
+      <configuration name="py.test in test_take_item" configurationId="tests" />
     </history-entry>
-    <history-entry file="All - 2017.01.16 at 22h 20m 09s.xml">
-      <configuration name="All" configurationId="tests" />
+    <history-entry file="py_test_in_test_take_item - 2017.01.17 at 20h 33m 12s.xml">
+      <configuration name="py.test in test_take_item" configurationId="tests" />
     </history-entry>
-    <history-entry file="All - 2017.01.16 at 22h 22m 15s.xml">
-      <configuration name="All" configurationId="tests" />
+    <history-entry file="py_test_in_test_take_item - 2017.01.17 at 20h 33m 42s.xml">
+      <configuration name="py.test in test_take_item" configurationId="tests" />
     </history-entry>
-    <history-entry file="All - 2017.01.16 at 22h 22m 27s.xml">
-      <configuration name="All" configurationId="tests" />
+    <history-entry file="py_test_in_test_takeitemaction_py - 2017.01.17 at 20h 19m 06s.xml">
+      <configuration name="py.test in test_takeitemaction.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="All - 2017.01.16 at 22h 34m 15s.xml">
-      <configuration name="All" configurationId="tests" />
+    <history-entry file="py_test_in_test_takeitemaction_py - 2017.01.17 at 20h 19m 14s.xml">
+      <configuration name="py.test in test_takeitemaction.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="All - 2017.01.16 at 22h 46m 22s.xml">
-      <configuration name="All" configurationId="tests" />
+    <history-entry file="py_test_in_test_takeitemaction_py - 2017.01.17 at 20h 19m 27s.xml">
+      <configuration name="py.test in test_takeitemaction.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -640,7 +700,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33438486" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -661,9 +721,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33438486" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31771597" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -679,6 +739,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Command.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_takeitemaction.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -686,176 +758,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/data/rooms/1_great_hall.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/data/rooms/2_dining_room.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rooms/2_dining_room.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rooms/1_great_hall.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/npc/1_greywizard">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/items/01_longsword.json" />
-    <entry file="file://$PROJECT_DIR$/items/1_longsword.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/data/npc/1_greywizard">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/data/items/1_longsword.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2016.3/system/python_stubs/796172746/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="732" column="8" lean-forward="false" selection-start-line="732" selection-start-column="8" selection-end-line="732" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Wands.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old_rooms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="58" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/races/elf.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_file_loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_room_actions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_takeitemaction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="51" lean-forward="true" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#13#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_action_repository.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_drop_item.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-340">
-          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#13#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Armor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Game_Screen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Game_State.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -884,14 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Action_repository.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="47" lean-forward="false" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/actions/drop.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -904,15 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actions/take.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -926,27 +816,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_look_action.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="49" column="76" lean-forward="true" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/npc/1_greywizard">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/guilds/bard.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -954,33 +827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file_loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#21#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/caching_repository.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/items/1_longsword.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -992,96 +838,335 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Character.py">
+    <entry file="file://$PROJECT_DIR$/old_rooms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="27" selection-end-column="30" />
+        <state relative-caret-position="275">
+          <caret line="78" column="55" lean-forward="true" selection-start-line="70" selection-start-column="7" selection-end-line="78" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/rooms/1_great_hall.json">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/json/decoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        <state relative-caret-position="224">
+          <caret line="354" column="0" lean-forward="false" selection-start-line="354" selection-start-column="0" selection-end-line="354" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_action_repository.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/actions/move.py">
+    <entry file="file://$PROJECT_DIR$/tests/test_file_loader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        <state relative-caret-position="125">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/room.py">
+    <entry file="file://$PROJECT_DIR$/tests/test_rooms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        <state relative-caret-position="91">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/actions/look.py">
+    <entry file="file://$PROJECT_DIR$/tests/test_drop_item.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="57" lean-forward="false" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+        <state relative-caret-position="-255">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="11" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/factory.py">
+    <entry file="file://$PROJECT_DIR$/data/rooms/6_exit_training_area.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-          <folding>
-            <element signature="e#1#24#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/rooms/7_training_dummy_2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="193" lean-forward="false" selection-start-line="2" selection-start-column="193" selection-end-line="2" selection-end-column="193" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/rooms/8_bar.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/rooms/4_requisitioner.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/rooms/5_hallway.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/rooms/2_hallway.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="57" lean-forward="false" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/rooms/3_training_dummy.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Game_State.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_repository.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        <state relative-caret-position="136">
+          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/items.py">
+    <entry file="file://$PROJECT_DIR$/tests/test_room_actions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="-17">
+          <caret line="19" column="189" lean-forward="false" selection-start-line="19" selection-start-column="189" selection-end-line="19" selection-end-column="189" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Command.py">
+    <entry file="file://$PROJECT_DIR$/caching_repository.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="47" column="54" lean-forward="false" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caching_repository_npc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/rooms/10_great_hall.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file_loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/npc/9_greywizard.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_look_action.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_factory.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="71" column="22" lean-forward="true" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="18" column="81" lean-forward="false" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/repository.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="17">
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/room_loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/move.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="109" lean-forward="true" selection-start-line="5" selection-start-column="109" selection-end-line="5" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/npc/11_blackwizard.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/items/12_shortsword.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/npc/13_bluewizard.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/items/14_handaxe.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/items/10_longsword.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Action_repository.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/rooms/1_great_hall.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/look.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="37" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Command.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/room.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="63" column="16" lean-forward="false" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actions/take.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Character.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_takeitemaction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="61" column="36" lean-forward="true" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
           <folding />
         </state>
       </provider>

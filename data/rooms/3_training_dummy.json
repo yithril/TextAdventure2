@@ -1,0 +1,11 @@
+{ "id": 3,
+     "name" : "Training Room",
+  "description" : "Bits of dried gore dot the walls.  The floor is covered in straw, hair, and dirt.  This is the training area where future heroes hone their combat skills and prepare themselves for the horrors of war.  Target dummies line the walls, waiting for a partner.",
+  "neighbors" : {"s":2},
+     "npc_inv": [],
+     "items_inv" : {},
+     "indoors" : "True",
+     "terrain" : "room",
+     "lighting": 80,
+     "room_description" : {}
+  }

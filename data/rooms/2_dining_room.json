@@ -1,8 +1,0 @@
-   { "name" : "Dining Room",
-  "description" : "You're standing among food",
-  "neighbors" : {"e":1},
-     "npc_inv": [],
-     "items_inv" : {},
-     "indoors" : "True",
-     "terrain" : "room"
-  }

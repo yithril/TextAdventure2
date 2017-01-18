@@ -12,6 +12,8 @@ from caching_repository import Caching_Repository
 from factory import Room_Factory
 from file_loader import File_Loader
 from repository import Repository
+from factory import Character_Factory
+from factory import Item_Factory
 
 
 class Game(cmd.Cmd):
@@ -21,7 +23,7 @@ class Game(cmd.Cmd):
         self.prompt = '>>'
 
     def do_look(self,dir):
-        action_repo.get_by_name("move").do(self.game_state, dir)
+        action_repo.get_by_name("look").do(self.game_state, dir)
 
     def do_move(self, dir):
         if not dir:
@@ -30,22 +32,27 @@ class Game(cmd.Cmd):
             action_repo.get_by_name("move").do(self.game_state,dir)
 
     def do_take(self, itemname):
-        action_repo.get_by_name("take").do(self.game_state, itemname)
+        print(action_repo.get_by_name("take").do(self.game_state, itemname))
 
     def do_quit(self):
         print("Thanks for playing!")
         return True
 
-
 if __name__ == "__main__":
     room_path = "data/rooms/"
     room_loader = File_Loader(room_path)
     room_repo = Caching_Repository(Repository(room_loader, Room_Factory))
+    npc_path = "data/npc/"
+    npc_loader = File_Loader(npc_path)
+    npc_repo = Caching_Repository(Repository(npc_loader, Character_Factory))
+    item_path = "data/items/"
+    item_loader = File_Loader(item_path)
+    item_repo = Caching_Repository(Repository(item_loader, Item_Factory))
     action_repo = ActionRepo()
     action_repo.add("move", MoveAction(room_repo))
-    action_repo.add("look", LookAction(room_repo))
+    action_repo.add("look", LookAction(room_repo, npc_repo, item_repo))
     action_repo.add("take", TakeItemAction(room_repo))
     action_repo.add("drop", DropItemAction(room_repo))
-    player = Character("George", [])
+    player = Character("George", [], type = "Character")
     g = Game()
     g.cmdloop()

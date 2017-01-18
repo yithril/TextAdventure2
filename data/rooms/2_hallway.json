@@ -1,0 +1,11 @@
+   { "id": 2,
+     "name" : "Hallway of the Hall of Heroes",
+  "description" : "Two large pictures hang from opposite ends of the hallways, clearly famous personages of one form or another.  There is a hallway leading further east towards what could be the exit, and two other rooms to the side.",
+  "neighbors" : {"w":1, "e":5, "n":3, "s":4},
+     "npc_inv": [],
+     "items_inv" : {},
+     "indoors" : "True",
+     "terrain" : "room",
+     "lighting": 80,
+     "room_description": {"picture 1": "", "picture 2": ""}
+  }

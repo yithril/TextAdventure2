@@ -1,4 +1,4 @@
-from factory import Weapon_Factory
+from factory import Weapon_Factory, Room_Factory
 from file_loader import File_Loader
 from repository import Repository
 from Weapon import Weapon
@@ -28,3 +28,4 @@ def test_repository():
                     damage_type="slashing",
                     keywords = [])
     assert test_case == weapon
+

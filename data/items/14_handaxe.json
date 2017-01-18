@@ -1,6 +1,6 @@
 {
   "type": "Weapon",
-  "name": "iron longsword",
+  "name": "handaxe",
   "desc": "A short, decently constructed iron longsword.",
   "long_desc": "This longsword does not feel too heavy.  The blade is somewhat rusted on the edges, and the sides are not as keen as they could be.",
   "weight": 8,

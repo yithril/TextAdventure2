@@ -1,0 +1,11 @@
+{ "id": 8,
+     "name" : "Trainee Bar",
+  "description" : "The bar counter is on the far end of the room.  Seveal bar stools lay strewn about.  Behind the bar are several shelves with half full flasks and bottles of hopefully imbibable spirits.  The atmosphere is rather smoky and dank, and the grease on the walls attests to the chef's skills.",
+  "neighbors" : {"s":6},
+     "npc_inv": [],
+     "items_inv" : {},
+     "indoors" : "True",
+     "terrain" : "room",
+     "lighting": 80,
+  "room_description" : {}
+  }

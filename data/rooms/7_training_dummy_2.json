@@ -1,0 +1,11 @@
+{ "id": 7,
+     "name" : "Training Room",
+  "description" : "The walls are lined with scorch marks and streaks of black, no doubt the work of some spell caster.  There are target dummies lining the walls, awaiting their next combatant. ",
+  "neighbors" : {"n":6},
+     "npc_inv": [],
+     "items_inv" : {},
+     "indoors" : "True",
+     "terrain" : "room",
+     "lighting": 80,
+  "room_description" : {}
+  }

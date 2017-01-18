@@ -15,9 +15,9 @@ class MockRepository:
 
 @pytest.fixture()
 def room_repository():
-    return MockRepository(Room(id = 1, name = "A room", description = "description", neighbors= {"e": 2}, npc_inv=[], items_inv =[], indoors = True, terrain = "Room"),
+    return MockRepository(Room(id = 1, name = "A room", description = "description", neighbors= {"e": 2}, npc_inv=[], items_inv =[], indoors = True, terrain = "Room", lighting = 100, room_description = {}),
                           Room(id = 2, name = "A room is here",
-                               description = "description is longer", neighbors= {"w": 1}, npc_inv=[], items_inv =[], indoors = True, terrain = "Room")
+                               description = "description is longer", neighbors= {"w": 1}, npc_inv=[], items_inv =[], indoors = True, terrain = "Room", lighting = 100, room_description = {})
                           )
 
 @pytest.fixture()

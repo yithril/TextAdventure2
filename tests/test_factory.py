@@ -8,13 +8,15 @@ from factory import Weapon_Factory, Character_Factory, Room_Factory
 from room import Room
 
 
+
 def test_character_loads():
     parsed_json = {
         "name": "Gray Wizard",
-        "inventory":[]
+        "inventory":[],
+        "type":"Character"
     }
     parsed_character = Character_Factory().create(parsed_json)
-    character = Character(name = "Gray Wizard", inventory = [])
+    character = Character(name = "Gray Wizard", inventory = [], type = "Character")
     assert parsed_character == character
 
 
@@ -71,9 +73,11 @@ def test_room_loads():
      "npc_inv": [],
      "items_inv" : {},
      "indoors" : "True",
-     "terrain" : "room"
+     "terrain" : "room",
+        "lighting": 100,
+        "room_description": {}
   }
     roomfactory = Room_Factory()
-    parsed_room = roomfactory.create(json_room)
-    room = Room(id = 1, name = "Great Hall", description = "You're standing among greatness", neighbors = {"w":2}, npc_inv = [], items_inv = {}, indoors = "True", terrain = "room")
+    parsed_room = Room_Factory().create(json_room)
+    room = Room(id = 1, name = "Great Hall", description = "You're standing among greatness", neighbors = {"w":2}, npc_inv = [], items_inv = {}, indoors = "True", terrain = "room", lighting = 100, room_description = {})
     assert parsed_room == room

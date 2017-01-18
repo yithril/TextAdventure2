@@ -11,13 +11,17 @@ class MockRepository:
     def get_by_id(self, id):
         return self._repo[id]
 
+class MockRepository2:
+    def __init__(self,*args):
+        pass
+
 @pytest.fixture()
 def room_repository():
     return MockRepository(Room(id = 1, name = "A room", description = "description", neighbors= {"e": 2}, npc_inv=[], items_inv ={
         "rock":1
-    }, indoors = True, terrain = "Room"),
+    }, indoors = True, terrain = "Room", lighting = 80, room_description={}),
                           Room(id = 2, name = "A room is here",
-                               description = "description is longer", neighbors= {"w": 1}, npc_inv=[], items_inv ={}, indoors = True, terrain = "Room")
+                               description = "description is longer", neighbors= {"w": 1}, npc_inv=[], items_inv ={}, indoors = True, terrain = "Room", lighting = 80, room_description={})
                           )
 
 class MockPlayer():
@@ -59,5 +63,6 @@ def test_look_action(state, room_repository, look_action):
     comparison = room.get_id()
     look_action.do(state, "n")
     assert room.get_id() == comparison
+
 
 
