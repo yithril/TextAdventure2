@@ -16,6 +16,10 @@ class LookAction:
         for line in textwrap.wrap(item.get_long_desc(),72):
             print(line)
 
+    def print_specific_description(self, string):
+        for line in textwrap.wrap(string,72):
+            print(line)
+
     def print_room(self, room):
         print(room.get_name())
         print("")
@@ -57,6 +61,10 @@ class LookAction:
         if direction and direction != "here":
             if room.neighbor(direction):
                 room = room.neighbor(direction)
+                """Is it in the room description?"""
+            elif direction in room.get_room_description():
+                self.print_specific_description(room.get_room_description().get(direction))
+                return
             else:
                 # is it an item
                 for item_id in room.get_item_ids():
@@ -66,7 +74,7 @@ class LookAction:
                 for item_id in room.get_item_ids():
                     item = self.item_repository.get_by_id(item_id)
                     if direction in item.get_keywords():
-                        return self.print_item(item)
+                            return self.print_item(item)
                 # is it an npc
                 for npc_id in room.get_npc_inv():
                     npc = self.npc_repository.get_by_id(npc_id)
@@ -76,6 +84,9 @@ class LookAction:
                     npc = self.npc_repository.get_by_id(npc_id)
                     if direction in npc.get_keywords():
                         return self.print_npc(npc)
+
+
+
 
                 return "Can't look that way"
 

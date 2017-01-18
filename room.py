@@ -64,6 +64,9 @@ class Room(object):
     def add_item(self, item):
         self._items_inv.append(item)
 
+    def get_room_description(self):
+        return self.room_description
+
     def neighbor(self,direction):
         if direction in self.neighbors:
             return self.neighbors[direction]
