@@ -14,9 +14,9 @@ class MockRepository:
 
 @pytest.fixture()
 def item_repository():
-    return MockRepository(Items(id = 1, name = "rock", desc = "a rock", long_desc = "a rock", weight = 1, value = 1, can_pick_up = "True", is_magical = "True", is_cursed = "False", keywords = ["pebble"], type = "Item"),
+    return MockRepository(Items(id = 1, name = "rock", desc = "a rock", long_desc = "a rock", weight = 1, value = 1, can_pick_up = "True", is_magical = "True", is_cursed = "False", keywords = ["pebble"], type = "Item", material = "stone"),
                           Items(id=2, name="pebble", desc="a rock", long_desc="a feather", weight=1, value=1,
-                                can_pick_up="True", is_magical="True", is_cursed="False", keywords=["plume"], type="Item"),)
+                                can_pick_up="True", is_magical="True", is_cursed="False", keywords=["plume"], type="Item", material = "stone"),)
 
 @pytest.fixture()
 def room_repository():
