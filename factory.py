@@ -1,6 +1,7 @@
 
 from Armor import Armor
 from Character import Character
+from items import Items
 from room import Room
 from Weapon import Weapon
 from Wands import Wands
@@ -31,10 +32,20 @@ def make_typed_factory(clazz):
                 return fact.create(d)
     return Anon
 
-Room_Factory = Generic_Factory(Room)
-Weapon_Factory = make_typed_factory(Weapon)
-Armor_Factory = make_typed_factory(Armor)
-Wand_Factory = make_typed_factory(Wands)
-Character_Factory = Generic_Factory(Character)
-Item_Factory = Chained_Factory([Weapon_Factory(),Armor_Factory(),Wand_Factory()])
+Room_Factory_Class = Generic_Factory(Room)
+Weapon_Factory_Class = make_typed_factory(Weapon)
+Armor_Factory_Class = make_typed_factory(Armor)
+Wand_Factory_Class = make_typed_factory(Wands)
+Items_Factory_Class = make_typed_factory(Items)
+Character_Factory_Class = Generic_Factory(Character)
+
+
+Room_Factory = Room_Factory_Class()
+Weapon_Factory = Weapon_Factory_Class()
+Armor_Factory = Armor_Factory_Class()
+Wand_Factory = Wand_Factory_Class()
+Items_Factory = Items_Factory_Class()
+Character_Factory = Character_Factory_Class()
+
+Item_Factory = Chained_Factory([Weapon_Factory,Armor_Factory,Wand_Factory, Items_Factory])
 
