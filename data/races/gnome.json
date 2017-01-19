@@ -1,5 +1,6 @@
 {"name": "Gnome",
                    "desc": "A pocket sized gnome, a pint-sized terror.",
+  "light_level": 25,
                    "attributes": {
                        "STR": -2,
                        "CON": 2,

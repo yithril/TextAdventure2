@@ -1,5 +1,6 @@
 {"name": "Half-Elf",
                    "desc": "Human at first glance, half-elves share their fey ancestors pointed ears.",
+  "light_level": 40,
                    "attributes": {
                        "STR": 0,
                        "CON": 0,

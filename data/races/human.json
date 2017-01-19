@@ -1,6 +1,7 @@
 {
   "name": "Human",
   "desc": "A lowly human, of average height, average looks.  Nothing much to see here.",
+  "light_level": 60,
   "attributes": {
     "STR": 0,
     "CON": 0,

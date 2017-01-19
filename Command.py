@@ -25,27 +25,32 @@ class Game(cmd.Cmd):
         self.do_look(None)
         self.prompt = '>>'
 
-    """Syntax: Look, Look <direction>, or Look <item or npc>"""
+
     def do_look(self,dir):
+        """Syntax: Look, Look <direction>, or Look <item or npc>"""
         action_repo.get_by_name("look").do(self.game_state, dir)
 
-    """Syntax move <direction>.  Valid directions are listed in exits."""
+
     def do_move(self, dir):
+        """Syntax move <direction>.  Valid directions are listed in exits."""
         if not dir:
             print("You must input a direction to move in,")
         else:
             action_repo.get_by_name("move").do(self.game_state,dir)
             action_repo.get_by_name("look").do(self.game_state, None)
 
-    """Syntax: take <item>"""
+
     def do_take(self, itemname):
+        """Syntax: take <item>"""
         action_repo.get_by_name("take").do(self.game_state, itemname)
 
-    """Syntax: drop <item>"""
+
     def do_drop(self, itemname):
+        """Syntax: drop <item>"""
         action_repo.get_by_name("drop").do(self.game_state, itemname)
 
     def do_inventory(self, args):
+        """Displays player inventory."""
         action_repo.get_by_name("inventory").do(self.game_state)
 
     def do_gold(self, args):

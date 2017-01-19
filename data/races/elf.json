@@ -1,5 +1,6 @@
 {"name": "Elf",
                    "desc": "A slender and lithe elf, possibly hailing from the Silver woods",
+  "light_level": 40,
                    "attributes": {
                        "STR": 0,
                        "CON": -2,

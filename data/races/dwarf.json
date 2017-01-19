@@ -1,5 +1,7 @@
 {"name": "Dwarf",
                    "desc": "A short, stout dwarf with a majestic beard.",
+  "light_level": 25,
+  "size": 1,
                    "attributes": {
                        "STR": 0,
                        "CON": 2,

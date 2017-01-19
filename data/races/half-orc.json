@@ -1,5 +1,6 @@
 {"name": "Half Orc",
                    "desc": "A hefty, brutish looking half-orc.",
+  "light_level": 25,
                    "attributes": {
                        "STR": 2,
                        "CON": 2,

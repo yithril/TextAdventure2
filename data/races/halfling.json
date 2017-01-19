@@ -1,5 +1,6 @@
 {"name": "Halfling",
                    "desc": "A barefoot halfling weary a raggedy coat.",
+  "light_level": 60,
                    "attributes": {
                        "STR": -2,
                        "CON": 0,

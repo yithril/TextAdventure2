@@ -1,3 +1,4 @@
+
 class DropItemAction():
     def __init__(self, room_repository, item_repository):
         self.room_repository = room_repository
@@ -19,6 +20,7 @@ class DropItemAction():
             if itemname in item.get_keywords():
                 print("You drop the", item.get_name())
                 player.add_encumbrance(-(item.get_weight()))
-                room.add_item(item.get_id)
+                room.add_item(item.get_id())
                 player.inventory.remove(item.get_id())
                 return
+
