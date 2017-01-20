@@ -11,7 +11,7 @@ If you want to test out the game, simply run the Command.py file.  Rooms are jso
 fills in the NPCs and Characters, as well as the items.  You can "take" and "drop" items, you can look at rooms, specific items/npcs,
 or descriptions in a room.  The Wield and Wear verbs are next in line to be implemented.
 
-The program uses a Repository for objects.  Objects are heled in a Repository cache based on a numerical id, so by simply giving the
+The program uses a Repository for objects.  Objects are held in a Repository cache based on a numerical id, so by simply giving the
 Repository object the number "1", you get the item/npc/room/whatever you want.  The Repository is linked with the File Loader and the Factory to make
 objects on demand.  I've focused on keeping each part of the game separate as possible using Model View Controller as my guideline.
 
