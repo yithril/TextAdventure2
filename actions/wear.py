@@ -26,11 +26,13 @@ class WearArmorAction:
                         elif player.race.get_body_slot("Ring Slot 1") is not 0 and player.race.get_body_slot("Ring Slot 2") is 0:
                             player.race.set_body_slot("Ring Slot 2", item.get_id())
                             print("You wear the {0} in your second ring slot.".format(item.get_name()))
+                            item.equip(state)
                             player.inventory.remove(item.get_id())
                             return
                         else:
                             player.race.set_body_slot("Ring Slot 1", item.get_id())
                             print("You wear the {0}".format(item.get_name()))
+                            item.equip(state)
                             player.inventory.remove(item.get_id())
                             return
                     elif player.race.get_body_slot(item.get_armor_slot()) != 0:
@@ -39,6 +41,7 @@ class WearArmorAction:
                     else:
                         player.race.set_body_slot(item.get_armor_slot(), item.get_id())
                         print("You wear the {0}".format(item.get_name()))
+                        item.equip(state)
                         player.inventory.remove(item.get_id())
                         return
         for itemid in player.inventory:
@@ -58,11 +61,13 @@ class WearArmorAction:
                         elif player.race.get_body_slot("Ring Slot 1") is not 0 and player.race.get_body_slot("Ring Slot 2") is 0:
                             player.race.set_body_slot("Ring Slot 2", item.get_id())
                             print("You wear the {0} in your second ring slot.".format(item.get_name()))
+                            item.equip(state)
                             player.inventory.remove(item.get_id())
                             return
                         else:
                             player.race.set_body_slot("Ring Slot 1", item.get_id())
                             print("You wear the {0}".format(item.get_name()))
+                            item.equip(state)
                             player.inventory.remove(item.get_id())
                             return
                     elif player.race.get_body_slot(item.get_armor_slot()) != 0:
@@ -71,6 +76,7 @@ class WearArmorAction:
                     else:
                         player.race.set_body_slot(item.get_armor_slot(), item.get_id())
                         print("You wear the {0}".format(item.get_name()))
+                        item.equip(state)
                         player.inventory.remove(item.get_id())
                         return
 

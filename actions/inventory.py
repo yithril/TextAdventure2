@@ -18,6 +18,6 @@ class Inventory:
     @staticmethod
     def format_line(names, prefix="You have "):
         if len(names) == 1:
-            return prefix+"{0}".format(names[0])
+            return prefix+"{0}.".format(names[0])
         else:
-            return prefix + ", ".join(names[:-1]) + ", and " + names[-1]
+            return prefix + ", ".join(names[:-1]) + ", and " + names[-1]+"."

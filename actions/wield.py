@@ -18,7 +18,7 @@ class WieldAction():
                     return
                 #Does your class allow you to wield this?
                 elif item.get_weapon_type() not in player.guild.get_allowed_weapon_types():
-                    print("{0}s are not allowed to wield {1}s".format(player.guild.get_name(), item.get_weapon_type()))
+                    print("{0}s are not allowed to wield {1}s.".format(player.guild.get_name(), item.get_weapon_type()))
                     return
                 #Druids can't wield metal objects
                 elif player.guild.get_name() == "Druid" and item.get_material() in ["iron", "steel", "copper", "bronze"]:
@@ -57,7 +57,7 @@ class WieldAction():
                     return
                 #Does your class allow you to wield this?
                 elif item.get_weapon_type() not in player.guild.get_allowed_weapon_types():
-                    print("{0}s are not allowed to wield {1}s".format(player.guild.get_name(), item.get_weapon_type()))
+                    print("{0}s are not allowed to wield {1}s.".format(player.guild.get_name(), item.get_weapon_type()))
                     return
                 #Druids can't wield metal objects
                 elif player.guild.get_name() == "Druid" and item.get_material() in ["iron", "steel", "copper", "bronze"]:

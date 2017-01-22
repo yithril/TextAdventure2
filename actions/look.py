@@ -84,12 +84,7 @@ class LookAction:
                     npc = self.npc_repository.get_by_id(npc_id)
                     if direction in npc.get_keywords():
                         return self.print_npc(npc)
-
-
-
-
                 return "Can't look that way"
-
         return self.print_room(room)
 
 

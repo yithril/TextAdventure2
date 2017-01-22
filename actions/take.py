@@ -12,8 +12,8 @@ class TakeItemAction:
                 if item.get_can_pick_up() == "False":
                     print("That is not something you can take.")
                     return
-                if player.is_too_heavy(item.get_weight()) == True:
-                    print("Taking that would make you over encumbeed.")
+                elif player.is_too_heavy(item.get_weight()) == True:
+                    print("Taking that would make you over encumbered.")
                     return
                 print("You take the",item.get_name())
                 player.inventory.append(item.get_id())
@@ -26,8 +26,8 @@ class TakeItemAction:
                 if item.get_can_pick_up() == "False":
                     print("That is not something you can take.")
                     return
-                if player.is_too_heavy(item.get_weight()) == True:
-                    print("Taking that would make you over encumbeed.")
+                elif player.is_too_heavy(item.get_weight()) == True:
+                    print("Taking that would make you over encumbered.")
                     return
                 print("You take the", item.get_name())
                 player.inventory.append(item.get_id())

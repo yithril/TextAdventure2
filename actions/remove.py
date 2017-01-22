@@ -12,10 +12,12 @@ class RemoveAction:
                     return
                 elif itemname == item.get_name():
                     print("You remove the {0}.".format(item.get_name()))
+                    item.remove(state)
                     player.race.set_body_slot(item.get_armor_slot(), 0)
                     player.inventory.append(item.get_id())
                 elif itemname in item.get_keywords():
                     print("You remove the {0}.".format(item.get_name()))
+                    item.remove(state)
                     player.race.set_body_slot(item.get_armor_slot(), 0)
                     player.inventory.append(item.get_id())
                 else:
