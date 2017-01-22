@@ -1,3 +1,4 @@
+
 import random
 
 
@@ -14,6 +15,8 @@ class Items(object):
                  is_cursed,
                  keywords,
                  type,
+                 material,
+                 appraise_dc
                  ):
         self._id = id
         self._weight = int(weight)
@@ -26,6 +29,8 @@ class Items(object):
         self._is_cursed = is_cursed
         self._keywords = keywords
         self.type = type
+        self.material = material
+        self.appraise_dc = appraise_dc
 
 
     def __eq__(self, other):
@@ -50,6 +55,9 @@ class Items(object):
     def __str__(self):
         return self.get_name()
 
+    def get_item_appraise_dc(self):
+        return self.appraise_dc
+
     def get_id(self):
         return self._id
 
@@ -73,4 +81,10 @@ class Items(object):
 
     def get_keywords(self):
         return self._keywords
+
+    def get_material(self):
+        return self.material
+
+    def get_type(self):
+        return str(self.type)
 

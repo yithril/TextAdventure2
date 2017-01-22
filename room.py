@@ -37,6 +37,9 @@ class Room(object):
     def __str__(self):
         return self.get_name()
 
+    def add_neighbor(self, dir, number):
+        self.neighbors[dir] = number
+
     def get_id(self):
         return self._id
 

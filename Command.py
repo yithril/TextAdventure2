@@ -1,14 +1,18 @@
 import cmd
 import textwrap
 
+
 from Action_repository import ActionRepo
 from Character import Character
 from Game_State import Game_State
+from actions.appraise import AppraiseAction
 from actions.gold import Gold
 from actions.inventory import Inventory
 from actions.limbs import LimbsAction
 from actions.move import MoveAction
 from actions.look import LookAction
+from actions.skills import SkillsAction
+from actions.stats import StatsAction
 from actions.status import StatusAction
 from actions.take import TakeItemAction
 from actions.drop import DropItemAction
@@ -17,6 +21,7 @@ from actions.wear import WearArmorAction
 from actions.wield import WieldAction
 from actions.remove import RemoveAction
 from caching_repository import Caching_Repository
+from create_character import create_Character
 from factory import Room_Factory
 from file_loader import File_Loader
 from guild_loader import load_guild_from_file
@@ -27,7 +32,7 @@ from factory import Item_Factory
 
 
 class Game(cmd.Cmd):
-    def __init__(self):
+    def __init__(self, player):
         cmd.Cmd.__init__(self)
         self.game_state = Game_State(1, player)
         self.do_look(None)
@@ -107,7 +112,20 @@ class Game(cmd.Cmd):
         """Display all equipment slots and what weapons and armor you currently have equipped."""
         action_repo.get_by_name("limbs").do(self.game_state)
 
+    def do_stats(self,args):
+        """Displays your characters attributes."""
+        action_repo.get_by_name("stats").do(self.game_state)
+
+    def do_skills(self,args):
+        """Displays all of your character skills and their levels."""
+        action_repo.get_by_name("skills").do(self.game_state)
+
+    def do_appraise(self, itemname):
+        """Appraise an item using your appraise skill.  If successful, you'll see what the item does and its value."""
+        action_repo.get_by_name("appraise").do(self.game_state, itemname)
+
     def do_quit(self, args):
+        """Quit the game."""
         print("Thanks for playing!")
         return -1
 
@@ -121,10 +139,6 @@ if __name__ == "__main__":
     item_path = "data/items/"
     item_loader = File_Loader(item_path)
     item_repo = Caching_Repository(Repository(item_loader, Item_Factory))
-    path = "data/races/half-elf.json"
-    player_race = load_race_from_file(path)
-    path2 = "data/guilds/paladin.json"
-    player_guild = load_guild_from_file(path2)
     action_repo = ActionRepo()
     action_repo.add("move", MoveAction(room_repo))
     action_repo.add("look", LookAction(room_repo, npc_repo, item_repo))
@@ -135,9 +149,13 @@ if __name__ == "__main__":
     action_repo.add("wear", WearArmorAction(item_repo))
     action_repo.add("remove", RemoveAction(item_repo))
     action_repo.add("unwield", UnwieldAction(item_repo))
-    action_repo.add("status", StatusAction())
+    action_repo.add("status", StatusAction(item_repo))
     action_repo.add("limbs", LimbsAction(item_repo))
+    action_repo.add("stats", StatsAction())
+    action_repo.add("skills", SkillsAction())
+    action_repo.add("appraise", AppraiseAction(item_repo))
     action_repo.add("gold", Gold())
-    player = Character("Character", "George", [], description = "A player", keywords = [], race = player_race, sex = "Male", guild = player_guild, ac = 10, mp = 10, hp = 10, strength = 10, dexterity=10, constitution=10, intelligence=10, wisdom=10, charisma=10, level=1, gold=100, xp=0, encumbrance=0, feats=[])
-    g = Game()
+    c = create_Character()
+    player = c.generate()
+    g = Game(player)
     g.cmdloop()
